@@ -22,6 +22,9 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
 <link rel="stylesheet" href="css/style.css">
+<style>
+body { width: 960px; margin: 0 auto; }
+</style>
 
 <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -30,7 +33,6 @@
 		 for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
 <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
-
 <body>
 	<header>
 
@@ -41,9 +43,35 @@
 <pre>
 chrome://chrome-urls/
 
+JavaScript Console Power User - http://www.youtube.com/watch?v=4mf_yNLlgic
+
 http://code.google.com/chrome/devtools/
 
 http://www.google.com/support/chrome/bin/static.py?page=guide.cs&guide=25799&topic=28650&
+</pre>
+</section>
+
+<section>
+<pre>	
+XMLHTTPRequest logging - right click on console and select to turn on
+Preserve Log
+
+console.time - measure how long something takes
+console.endTime
+
+console.dir - gives the DOM level view of elements
+dir
+
+inspect - selects the element that you pass to it
+
+$$ - a wrapper around querySelectorAll
+
+monitorEvents() - logs all the events fired on an object. can also pass it specific events
+
+keys() - gives you the names of all the elements of an object
+values() - gives you all the values of those elements
+
+copy - copies everything passed to it.
 </pre>
 </section>
 
