@@ -38,154 +38,306 @@ body { width: 960px; margin: 0 auto; }
 	</header>
 	<div role="main">
 
-<section>
-<pre>
-chrome://chrome-urls/
+		<section>
+				
+			<p><a href="http://www.youtube.com/watch?v=4mf_yNLlgic">JavaScript Console Power User</a></p>
+			
+			<p><a href="http://code.google.com/chrome/devtools/">Chrome Devtools</a></p>
+			
+			<p><a href="http://www.google.com/support/chrome/bin/static.py?page=guide.cs&amp;guide=25799&amp;topic=28650&amp;">Chrome Shortcuts</a></p>
+			
+		</section>
+		<section>
+			<p><strong>XMLHTTPRequest logging</strong> - Right click on console and select to turn on so you can view the XHR log</p>
+			
+			<p><strong>Preserve Log</strong> - </p>
 
-JavaScript Console Power User - http://www.youtube.com/watch?v=4mf_yNLlgic
+		</section>
+		<section>
+			
+			<h2>Command Line API</h2>
+			
+			<p><strong>$$</strong> - Returns an array of elements that match the given CSS selector.</p>
+			
+			<p><strong>$0</strong> - The currently-selected object in the inspector.</p>
+			
+			<p><strong>$1</strong> - The previously-selected object in the inspector.</p>
+			
+			<p><strong>$n(index)</strong> - Access to an array of last 5 inspected elements.</p>
+			
+			<p><strong>dir(object)</strong> - Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.</p>
+			
+			<p><strong>dirxml(node)</strong> - Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.</p>
+			
+			<p><strong>cd(window)</strong> - By default, command line expressions are relative to the top-level window of the page. cd() allows you to use the window of a frame in the page instead.</p>
+			
+			<p><strong>clear()</strong> - Clears the console.</p>
+			
+			<p><strong>inspect(object[, tabName])</strong> - Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.</p>
+			
+			<p><strong>keys(object)</strong> - Returns an array containing the names of all properties of the object.</p>
+			
+			<p><strong>values(object)</strong> - Returns an array containing the values of all properties of the object.</p>
+			
+			<p><strong>debug(fn)</strong> - Adds a breakpoint on the first line of a function.</p>
+			
+			<p><strong>undebug(fn)</strong> - Removes the breakpoint on the first line of a function.</p>
+			
+			<p><strong>monitor(fn)</strong> - Turns on logging for all calls to a function.</p>
+			
+			<p><strong>unmonitor(fn)</strong> - Turns off logging for all calls to a function.</p>
+			
+			<p><strong>monitorEvents(object[, types])</strong> - Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key".
+			The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".</p>
+			
+			<p><strong>unmonitorEvents(object[, types])</strong> - Turns off logging for all events dispatched to an object.</p>
+			
+			<p><strong>profile([title])</strong> - Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.</p>
+			
+			<p><strong>profileEnd()</strong> - Turns off the JavaScript profiler and prints its report.</p>
+			
+		</section>
+		<section>
 
-http://code.google.com/chrome/devtools/
+			<h2>Console API</h2>
+			
+			<p><strong>console.assert(expression[, object, ...])</strong> - Tests that an expression is true. If not, it will write a message to the console and throw an exception.</p>
+			
+			<p><strong>console.clear()</strong> - Clears the console.</p>
+			
+			<p><strong>console.constructor()</strong> - </p>
+			
+			<p><strong>console.count([title])</strong> - Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.</p>
+			
+			<p><strong>console.copy()</strong> - Copies everything passed to it.</p>
+			
+			<p><strong>console.debug(object[, object, ...])</strong> - Writes a message to the console, including a hyperlink to the line where it was called.</p>
+			
+			<p><strong>console.dir(object)</strong> - Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.</p>
+			
+			<p><strong>console.dirxml(node)</strong> - Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.</p>
+			
+			<p><strong>console.error(object[, object, ...])</strong> - Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.</p>
+			
+			<p><strong>console.exception()</strong> - Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.</p>
+			
+			<p><strong>console.group(object[, object, ...])</strong> - Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.</p>
+			
+			<p><strong>console.groupCollapsed(object[, object, ...])</strong> - Like console.group(), but the block is initially collapsed.</p>
+			
+			<p><strong>console.groupEnd()</strong> - Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().</p>
+			
+			<p><strong>console.hasOwnProperty()</strong> - </p>
+			
+			<p><strong>console.info(object[, object, ...])</strong> - Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.</p>
+			
+			<p><strong>console.isPrototypeOf()</strong> - </p>
+			
+			<p><strong>console.keys()</strong> - gives you the names of all the elements of an object</p>
+			
+			<p><strong>console.log(object[, object, ...])</strong> - Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line.</p>
+			
+			<p><strong>console.markTimeline()</strong> - </p>
+			
+			<p><strong>console.memory()</strong> - </p>
+			
+			<p><strong>console.performance()</strong> - </p>
+			
+			<p><strong>console.performance.timing()</strong> - </p>
+			
+			<p><strong>console.performance.memory()</strong> - </p>
+			
+			<p><strong>console.performance.navigation()</strong> - </p>
+			
+			<p><strong>console.profile([title])</strong> - Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.</p>
+			
+			<p><strong>console.profileEnd()</strong> - Turns off the JavaScript profiler and prints its report.</p>
+			
+			<p><strong>console.profiles()</strong> - </p>
+			
+			<p><strong>console.propertyIsEnumerable()</strong> - </p>
+			
+			<p><strong>console.time([name])</strong> - Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed..</p>
+			
+			<p><strong>console.endTime()</strong> - Stops a timer created by a call to console.time(name) and writes the time elapsed.</p>
+			
+			<p><strong>console.timeStamp()</strong> - </p>
+			
+			<p><strong>console.toLocaleString()</strong> - </p>
+			
+			<p><strong>console.toString()</strong> - </p>
+			
+			<p><strong>console.trace()</strong> - Prints an interactive stack trace of JavaScript execution at the point where it is called.</p>
+			
+			<p><strong>console.valueOf()</strong> - </p>
+			
+			<p><strong>console.values()</strong> - gives you all the values of those elements</p>
+			
+			<p><strong>console.warn(object[, object, ...])</strong> - Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.</p>
+			
+			<p><strong>window.onerror</strong> -</p>			
 
-http://www.google.com/support/chrome/bin/static.py?page=guide.cs&guide=25799&topic=28650&
-</pre>
-</section>
+		</section>
+		<section>
 
-<section>
-<pre>	
-XMLHTTPRequest logging - right click on console and select to turn on
-Preserve Log
+			<h2>Command Line</h2>
+			
+			<p><strong>Chrome disable-javascript</strong> - Disable JavaScript from command line</p>
+			
+			<p><strong>-disable-images</strong> - Disable images</p>
+			
+			<p><strong>-disable-java</strong> - Disable Java</p>
+			
+			<p><strong>-disable-plugins</strong> - Disable plugins</p>
+			
+			<p><strong>-disable-popup-blocking</strong> - Disable popup blocking</p>
+			
+			<p><strong>-start-maximized</strong> - Start Chrome fullscreen</p>
+			
+			<p><strong>For example:</strong>
+			"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript</p>
 
-console.time - measure how long something takes
-console.endTime
+		</section>
+		<section>
+			
+			<h2>Shortcuts to open Google Chrome features</h2>
+			
+			<p><strong>Ctrl + Shift + J</strong> - Launch the JS debugger</p>
+			
+			<p><strong>Ctrl + Shift + N</strong> - Open a new window in incognito mode</p>
+			
+			<p><strong>Ctrl + B</strong> - Toggle bookmarks bar on and off</p>
+			
+			<p><strong>Ctrl + H</strong> - View the History page</p>
+			
+			<p><strong>Ctrl + J</strong> - View the Downloads page</p>
+			
+			<p><strong>Shift + Esc</strong> - View the Task manager</p>
+			
+			<p><strong>Backspace, Alt + ←</strong> - Go to the previous page in your browsing history for the tab</p>
+			
+			<p><strong>Shift + Backspace, Alt + →</strong> - Go to the next page in your browsing history for the tab</p>
+			
+			<p><strong>Ctrl + K, Ctrl + E</strong> - Places a '?' in the address bar. Type a search term after the '?' to perform a search using your default search engine.</p>
+			
+			<p><strong>F6, Ctrl + L, Alt + D</strong> - Highlight content in the web address area</p>
+			
+			<h2>about:pages Commands</h2>
+			
+			<p><strong>about:stats</strong> - Display page statistics</p>
+			
+			<p><strong>about:memory</strong> - Display memory usage in a multi-process browser</p>
+			
+			<p><strong>about:plugins</strong> - Display installed plug-ins</p>
+			
+			<p><strong>about:histograms</strong> - Display connection times</p>
+			
+			<p><strong>about:dns</strong> - Display DNS information</p>
+			
+			<p><strong>about:cache</strong> - Display cached web pages</p>
+			
+			<p><strong>about:network</strong> - Display a menu for various network monitoring and testing</p>
+			
+			<p><strong>view-cache:stats</strong> - Display cached documents</p>
+			
+			<p><strong>chrome-resource:/favicon/</strong> - Display the binary data for a PNG file</p>
+			
+			<p><strong>chrome-resource:/new-tab/</strong> - A template for the empty tab page</p>
+			
+			<p><strong>about:version</strong> - Display information about the browser</p>
+			
+		</section>
+		<section>
 
-console.dir - gives the DOM level view of elements
-dir
+			<h2>List of Chrome URLs</h2>
+			
+			<p>chrome://chrome-urls</p>
+			
+			<p>chrome://appcache-internals</p>
+			
+			<p>chrome://blob-internals</p>
+			
+			<p>chrome://bookmarks</p>
+			
+			<p>chrome://cache</p>
+			
+			<p>chrome://crashes</p>
+			
+			<p>chrome://credits</p>
+			
+			<p>chrome://dns</p>
+			
+			<p>chrome://downloads</p>
+			
+			<p>chrome://extensions</p>
+			
+			<p>chrome://flags</p>
+			
+			<p>chrome://flash</p>
+			
+			<p>chrome://gpu-internals</p>
+			
+			<p>chrome://histograms</p>
+			
+			<p>chrome://history</p>
+			
+			<p>chrome://ipc</p>
+			
+			<p>chrome://media-internals</p>
+			
+			<p>chrome://memory</p>
+			
+			<p>chrome://net-internals</p>
+			
+			<p>chrome://view-http-cache</p>
+			
+			<p>chrome://newtab</p>
+			
+			<p>chrome://plugins</p>
+			
+			<p>chrome://print</p>
+			
+			<p>chrome://quota-internals</p>
+			
+			<p>chrome://sessions</p>
+			
+			<p>chrome://settings</p>
+			
+			<p>chrome://stats</p>
+			
+			<p>chrome://sync-internals</p>
+			
+			<p>chrome://tcmalloc</p>
+			
+			<p>chrome://terms</p>
+			
+			<p>chrome://tracing</p>
+			
+			<p>chrome://version</p>
+			
+			<p>chrome://workers</p>
+			
+			<p>chrome://conflicts</p>
+			
+			<h3>For Debug</h3>
+			
+			<p>The following pages are for debugging purposes only. Because they crash or hang the renderer, they're not linked directly; you can type them into the address bar if you need them.</p>
+			
+			<p>chrome://crash/</p>
+			
+			<p>chrome://kill/</p>
+			
+			<p>chrome://hang/</p>
+			
+			<p>chrome://shorthang/</p>
+			
+			<p>chrome://gpuclean</p>
+			
+			<p>chrome://gpucrash</p>
+			
+			<p>chrome://gpuhang</p>
 
-inspect - selects the element that you pass to it
-
-$$ - a wrapper around querySelectorAll
-
-monitorEvents() - logs all the events fired on an object. can also pass it specific events
-
-keys() - gives you the names of all the elements of an object
-values() - gives you all the values of those elements
-
-copy - copies everything passed to it.
-</pre>
-</section>
-
-<section>
-<pre>	
-Using CTRL + SHIFT+ J  CTRL-SHIFT-J - Launches the JS debugger
-
-Disable Javascript in command line:
-Chrome disable-javascript
-
-For example:
-"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript
-
-Other parameters you would like to enable or disable:
--disable-images
--disable-java
--disable-plugins
--disable-popup-blocking
--start-maximized
-</pre>
-</section>
-
-<section>
-<h1>Console Commands:</h1>
-<pre>
-$0 - selects the currently selected element in the elements tab
-$1 - selects the previously selected element
-$2 - selects the second previously selected element
-$3 - the third previously selected element
-and so on...
-
-performance
-performance.timing
-performance.memory
-performance.navigation
-performance.__defineSetter__
-performance.__defineGetter__
-
-inspect
-dir
-dirxml
-
-__defineGetter__
-__defineSetter__
-__lookupGetter__
-__lookupSetter__
-
-assert
-constructor
-count
-dir
-dirxml
-error
-group
-groupCollapsed
-groupEnd
-hasOwnProperty
-info
-isPrototypeOf
-log
-markTimeline
-memory
-profile
-profileEnd
-profiles
-propertyIsEnumerable
-time
-timeEnd
-timeStamp
-toLocaleString
-toString
-trace
-valueOf
-warn
-
-
-window.onerror
-</pre>
-</section>
-
-
-<section>
-<h1>Shortcuts to open Google Chrome features</h1>
-<pre>
-CTRL + SHIFT+ J	Launch the JS debugger
-Ctrl + Shift + N	Open a new window in incognito mode
-Ctrl + B	Toggle bookmarks bar on and off
-Ctrl + H	View the History page
-Ctrl + J	View the Downloads page
-Shift + Esc	View the Task manager
-Backspace, Alt + ←	Go to the previous page in your browsing history for the tab
-Shift + Backspace, Alt + →	Go to the next page in your browsing history for the tab
-Ctrl + K, Ctrl + E	Places a '?' in the address bar. Type a search term after the '?' to perform a search using your default search engine.
-F6, Ctrl + L, Alt + D	Highlight content in the web address area
-</pre>
-</section>
-
-<section>
-<h1>about:pages</h1>
-
-<pre>
-Command	Description
-about:stats	Display page statistics
-about:memory	Display memory usage in a multi-process browser
-about:plugins	Display installed plug-ins
-about:histograms	Display connection times
-about:dns	Display DNS information
-about:cache	Display cached web pages
-about:network	Display a menu for various network monitoring and testing
-view-cache:stats	Display cached documents
-chrome-resource:/favicon/	Display the binary data for a PNG file
-chrome-resource:/new-tab/	 a template for the empty tab page
-about:version	Display information about the browser
-</pre>
-</section>
+		</section>
 
 	</div>
 	<footer>
