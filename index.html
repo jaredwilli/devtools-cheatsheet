@@ -22,7 +22,30 @@
 
 <link rel="stylesheet" href="css/style.css">
 <style>
-body { width: 960px; margin: 0 auto; }
+body {
+	font-family: verdana;
+	width: 960px; 
+	margin: 0 auto;
+}
+
+section {
+	width: 432px;
+	float: left;
+	margin: 12px;
+	background: #eee;
+	padding: 12px;
+	color: #333;
+	display: inline-block;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+footer {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
 </style>
 
 <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -34,56 +57,12 @@ body { width: 960px; margin: 0 auto; }
 </head>
 <body>
 	<header>
-
+		<h1>Devtools Cheatsheet</h1>
 	</header>
 	<div role="main">
 
 		<section>
 			
-			<h2>Command Line API</h2>
-			
-			<p><strong>$$</strong> - Returns an array of elements that match the given CSS selector.</p>
-			
-			<p><strong>$0</strong> - The currently-selected object in the inspector.</p>
-			
-			<p><strong>$1</strong> - The previously-selected object in the inspector.</p>
-			
-			<p><strong>$n(index)</strong> - Access to an array of last 5 inspected elements.</p>
-			
-			<p><strong>dir(object)</strong> - Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.</p>
-			
-			<p><strong>dirxml(node)</strong> - Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.</p>
-			
-			<p><strong>cd(window)</strong> - By default, command line expressions are relative to the top-level window of the page. cd() allows you to use the window of a frame in the page instead.</p>
-			
-			<p><strong>clear()</strong> - Clears the console.</p>
-			
-			<p><strong>inspect(object[, tabName])</strong> - Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.</p>
-			
-			<p><strong>keys(object)</strong> - Returns an array containing the names of all properties of the object.</p>
-			
-			<p><strong>values(object)</strong> - Returns an array containing the values of all properties of the object.</p>
-			
-			<p><strong>debug(fn)</strong> - Adds a breakpoint on the first line of a function.</p>
-			
-			<p><strong>undebug(fn)</strong> - Removes the breakpoint on the first line of a function.</p>
-			
-			<p><strong>monitor(fn)</strong> - Turns on logging for all calls to a function.</p>
-			
-			<p><strong>unmonitor(fn)</strong> - Turns off logging for all calls to a function.</p>
-			
-			<p><strong>monitorEvents(object[, types])</strong> - Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key".
-			The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".</p>
-			
-			<p><strong>unmonitorEvents(object[, types])</strong> - Turns off logging for all events dispatched to an object.</p>
-			
-			<p><strong>profile([title])</strong> - Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.</p>
-			
-			<p><strong>profileEnd()</strong> - Turns off the JavaScript profiler and prints its report.</p>
-			
-		</section>
-		<section>
-
 			<h2>Console API</h2>
 			
 			<p><strong>console.assert(expression[, object, ...])</strong> - Tests that an expression is true. If not, it will write a message to the console and throw an exception.</p>
@@ -164,6 +143,52 @@ body { width: 960px; margin: 0 auto; }
 
 		</section>
 		<section>
+
+			<h2>Command Line API</h2>
+			
+			<p><strong>$$</strong> - Returns an array of elements that match the given CSS selector.</p>
+			
+			<p><strong>$0</strong> - The currently-selected object in the inspector.</p>
+			
+			<p><strong>$1</strong> - The previously-selected object in the inspector.</p>
+			
+			<p><strong>$n(index)</strong> - Access to an array of last 5 inspected elements.</p>
+			
+			<p><strong>dir(object)</strong> - Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.</p>
+			
+			<p><strong>dirxml(node)</strong> - Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.</p>
+			
+			<p><strong>cd(window)</strong> - By default, command line expressions are relative to the top-level window of the page. cd() allows you to use the window of a frame in the page instead.</p>
+			
+			<p><strong>clear()</strong> - Clears the console.</p>
+			
+			<p><strong>inspect(object[, tabName])</strong> - Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.</p>
+			
+			<p><strong>keys(object)</strong> - Returns an array containing the names of all properties of the object.</p>
+			
+			<p><strong>values(object)</strong> - Returns an array containing the values of all properties of the object.</p>
+			
+			<p><strong>debug(fn)</strong> - Adds a breakpoint on the first line of a function.</p>
+			
+			<p><strong>undebug(fn)</strong> - Removes the breakpoint on the first line of a function.</p>
+			
+			<p><strong>monitor(fn)</strong> - Turns on logging for all calls to a function.</p>
+			
+			<p><strong>unmonitor(fn)</strong> - Turns off logging for all calls to a function.</p>
+			
+			<p><strong>monitorEvents(object[, types])</strong> - Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key".
+			The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".</p>
+			
+			<p><strong>unmonitorEvents(object[, types])</strong> - Turns off logging for all events dispatched to an object.</p>
+			
+			<p><strong>profile([title])</strong> - Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.</p>
+			
+			<p><strong>profileEnd()</strong> - Turns off the JavaScript profiler and prints its report.</p>
+			
+		</section>
+		<section>
+			
+			<h2>Other Cool Stuff</h2>
 			
 			<p><strong>XMLHTTPRequest logging</strong> - Right click on console and select to turn on so you can view the XHR log</p>
 			
@@ -171,39 +196,10 @@ body { width: 960px; margin: 0 auto; }
 
 		</section>
 		<section>
-				
-			<p><a href="http://www.youtube.com/watch?v=4mf_yNLlgic">JavaScript Console Power User</a></p>
-			
-			<p><a href="http://code.google.com/chrome/devtools/">Chrome Devtools</a></p>
-			
-			<p><a href="http://www.google.com/support/chrome/bin/static.py?page=guide.cs&amp;guide=25799&amp;topic=28650&amp;">Chrome Shortcuts</a></p>
-			
-		</section>
-		<section>
-
-			<h2>Command Line</h2>
-			
-			<p><strong>Chrome disable-javascript</strong> - Disable JavaScript from command line</p>
-			
-			<p><strong>-disable-images</strong> - Disable images</p>
-			
-			<p><strong>-disable-java</strong> - Disable Java</p>
-			
-			<p><strong>-disable-plugins</strong> - Disable plugins</p>
-			
-			<p><strong>-disable-popup-blocking</strong> - Disable popup blocking</p>
-			
-			<p><strong>-start-maximized</strong> - Start Chrome fullscreen</p>
-			
-			<p><strong>For example:</strong>
-			"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript</p>
-
-		</section>
-		<section>
 			
 			<h2>Shortcuts to open Google Chrome features</h2>
 			
-			<p><strong>Ctrl + Shift + C</st> - Open developer tools with Inspect Element mode on</p>
+			<p><strong>Ctrl + Shift + C</strong> - Open developer tools with Inspect Element mode on</p>
 				
 			<p><strong>Ctrl + Shift + J</strong> - Launch the JS debugger</p>
 			
@@ -225,8 +221,25 @@ body { width: 960px; margin: 0 auto; }
 			
 			<p><strong>F6, Ctrl + L, Alt + D</strong> - Highlight content in the web address area</p>
 			
+		</section>
+		<section>
 			
-			<h2>about:pages Commands</h2>
+			<h2>Devtools Links</h2>
+			
+			<p><a href="http://goo.gl/XYgok">Console API</a> - http://goo.gl/XYgok</p>
+			
+			<p><a href="http://goo.gl/F4JPq">Command Line API</a> - http://goo.gl/F4JPq</p>
+			
+			<p><a href="http://goo.gl/rdlJQ">JavaScript Console Power User</a> - http://goo.gl/rdlJQ</p>
+			
+			<p><a href="http://goo.gl/BVCnH">Chrome Devtools</a> - http://goo.gl/BVCnH</p>
+			
+			<p><a href="http://goo.gl/gkN0K">Chrome Shortcuts</a> - http://goo.gl/gkN0K</p>
+			
+		</section>
+		<section>
+			
+			<h2>about:pages</h2>
 			
 			<p><strong>about:about</strong> - Displays all the chrome://chrome-urls</p>
 			
@@ -255,7 +268,26 @@ body { width: 960px; margin: 0 auto; }
 		</section>
 		<section>
 
-			<h2>List of Chrome URLs</h2>
+			<h2>Other Commands</h2>
+			
+			<p><strong>Chrome disable-javascript</strong> - Disable JavaScript from command line</p>
+			
+			<p><strong>-disable-images</strong> - Disable images</p>
+			
+			<p><strong>-disable-java</strong> - Disable Java</p>
+			
+			<p><strong>-disable-plugins</strong> - Disable plugins</p>
+			
+			<p><strong>-disable-popup-blocking</strong> - Disable popup blocking</p>
+			
+			<p><strong>-start-maximized</strong> - Start Chrome fullscreen</p>
+			
+			<p><strong>For example:</strong> <em>"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript</em></p>
+
+		</section>
+		<section>
+
+			<h2>Chrome URLs</h2>
 			
 			<p><strong>chrome://chrome-urls</strong> == about:about</p>
 			
@@ -346,7 +378,10 @@ body { width: 960px; margin: 0 auto; }
 
 	</div>
 	<footer>
-
+		<p>Created by 
+			<a href="http://twitter.com/jaredwilli">Jared Williams</a> | 
+			<a href="https://github.com/jaredwilli/devtools-cheatsheet">Fork Me</a>
+		</p>
 	</footer>
 
 
