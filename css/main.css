@@ -95,6 +95,10 @@ h2 {
     border-bottom: 1px solid #CCC;
 }
 
+ul li ul {
+    list-style: none;
+}
+
 header {
     width: 100%;
 }
