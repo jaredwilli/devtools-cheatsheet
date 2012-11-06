@@ -18,7 +18,8 @@
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js"></script>
+
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -160,6 +161,20 @@
 	<section id="console-api">
 		<h2>Console API</h2>
 
+		<table>
+			<tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
+			<tr><td> Select Next Call Frame               </td><td> Ctrl-. </td><td> ⌃. </td></tr>
+			<tr><td> Select Previous Call Frame           </td><td> Ctrl-, </td><td> ⌃, </td></tr>
+			<tr><td> Continue                             </td><td> F8 or Ctrl-/ </td><td> F8 or ⌘/ </td></tr>
+			<tr><td> Step Over                            </td><td> F10 or Ctrl-' </td><td> F10 or ⌘' </td></tr>
+			<tr><td> Step Into                            </td><td> F11 or Ctrl-; </td><td> F11 or ⌘; </td></tr>
+			<tr><td> Step Out                             </td><td> Shift-F11 or Ctrl-Shift-; </td><td> ⇧F11 or ⇧⌘; </td></tr>
+			<tr><td> Evaluate Selection                   </td><td> Ctrl-Shift-E </td><td> ⇧⌘E </td></tr>
+			<tr><td> Toggle Breakpoint Condition          </td><td> Click on line number </td><td> Click on line number </td></tr>
+			<tr><td> Edit Breakpoint Condition            </td><td> Right-Click on line number </td><td> Right-Click on line number </td></tr>
+		</tbody></table>
+
+
 		<p><strong>console.assert(expression[, object, ...])</strong> - Tests that an expression is true. If not, it will write a message to the console and throw an exception.</p>
 
 		<p><strong>console.clear()</strong> - Clears the console.</p>
@@ -297,11 +312,6 @@
 	<section>
 
 		<h2>Shortcuts to open Google Chrome features</h2>
-
-		0.1 unit: Alt-Up/Down
-		1 unit: Up/Down (You already knew this one  )
-		10 unit: Shift-Up/Down or PageUp/PageDown
-		100 unit: Shift-PageUp/PageDown
 
 		<p><strong>Ctrl + Shift + N</strong> - Open a new window in incognito mode</p>
 		<p><strong>Ctrl + B</strong> - Toggle bookmarks bar on and off</p>
@@ -477,26 +487,27 @@
 	</p>
 </footer>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-	<script defer src="js/plugins.js"></script>
-	<script defer src="js/script.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script defer src="js/plugins.js"></script>
+<script defer src="js/script.js"></script>
 
 
-	<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-			 mathiasbynens.be/notes/async-analytics-snippet -->
-	<script>
-		var _gaq=[['_setAccount','UA-22924724-1'],['_trackPageview']];
-		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-		s.parentNode.insertBefore(g,s)}(document,'script'));
-	</script>
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+		 mathiasbynens.be/notes/async-analytics-snippet -->
+<script>
+	var _gaq=[['_setAccount','UA-22924724-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
 
-	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-			 chromium.org/developers/how-tos/chrome-frame-getting-started -->
-	<!--[if lt IE 7 ]>
-		<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-		<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-	<![endif]-->
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+		 chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+	<script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
 </body>
 </html>

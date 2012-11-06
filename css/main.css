@@ -84,6 +84,17 @@ section {
     padding: 0.5em 1em 0;
 }
 
+a, a:visited {
+    color: #6199DF;
+    text-decoration: none;
+}
+a:hover {
+    color: #4B30B9;
+}
+a img, img {
+    border: 0;
+}
+
 h1, h2, h3 {
     margin: 0;
 }
