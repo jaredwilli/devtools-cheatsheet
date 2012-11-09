@@ -254,13 +254,13 @@ table td {
 
 @media print {
     * {
-        background: transparent !important;
+        /*background: transparent !important;*/
         color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
+        font-size: 12px;
     }
 
-    a, a:visited { text-decoration: underline; }
     a[href]:after { content: " (" attr(href) ")"; }
     abbr[title]:after { content: " (" attr(title) ")"; }
 
@@ -279,12 +279,18 @@ table td {
     }
 
     thead { display: table-header-group; /* h5bp.com/t */ }
-    tr, img { page-break-inside: avoid; }
+    section, table, tr, img { page-break-inside: avoid; }
     img { max-width: 100% !important; }
 
     @page { margin: 0.5cm; }
 
+    h1 { font-size: 18px; }
+    h2 { font-size: 14px; }
     p, h2, h3 { orphans: 3; widows: 3; }
     h2, h3 { page-break-after: avoid; }
 
+
+    .fork {
+        display: none;
+    }
 }
