@@ -100,7 +100,7 @@ h1, h2, h3 {
 }
 
 h1 {
-
+    display: inline-block;
 }
 h2 {
     border-bottom: 1px solid #CCC;
@@ -123,7 +123,10 @@ footer {
     text-align: center;
 }
 
-
+.share {
+    display: inline-block;
+    margin-left: 300px;
+}
 
 table {
     border: 1px solid #bbb;
