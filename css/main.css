@@ -123,10 +123,6 @@ footer {
     text-align: center;
 }
 
-.share {
-    display: inline-block;
-    margin-left: 300px;
-}
 
 table {
     border: 1px solid #bbb;
@@ -148,11 +144,16 @@ table td {
 }
 
 
-
-
-
-
-
+.share {
+    display: inline-block;
+    margin-left: 10px;
+}
+.git-btn {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 0 0 30px;
+}
 
 
 
