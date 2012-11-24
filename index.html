@@ -94,11 +94,10 @@
 			<tr><td> Find Previous                        </td><td> Ctrl + Shift + G </td><td> ⇧ + ⌘ + G </td></tr>
 			<tr><td> Find Next                            </td><td> Ctrl + G </td><td> ⌘ + G </td></tr>
 			<tr><td> Go to Source                         </td><td> Ctrl + O </td><td> ⇧ + O </td></tr>
-			<!-- Chrome Canary?
-			<tr><td> Go to Line                           </td><td> Ctrl + G </td><td> ⌘ + G </td></tr> -->
+			<tr><td> Go to Line                           </td><td> Ctrl + G </td><td> ⌘ + G </td></tr>
+			<tr><td> Restore Default text size 			  </td><td> Ctrl + 0 </td><td> ⇧ + 0 </td></tr>
 			<tr><td> Zoom In                              </td><td> Ctrl + </td><td> ⇧ + </td></tr>
 			<tr><td> Zoom Out                             </td><td> Ctrl - </td><td> ⇧ - </td></tr>
-			<tr><td> Restore Default text size 			  </td><td> Ctrl 0 </td><td> ⇧ 0 </td></tr>
 		</tbody></table>
 
 	</section>
@@ -109,7 +108,7 @@
 		<table>
 			<tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
 			<tr><td> Navigate                             </td><td> Up, Down </td><td> Up, Down </td></tr>
-			<tr><td> Expand/Collapse Node                 </td><td> Right, Left </td><td> Right, Left </td></tr>
+			<tr><td> Expand / Collapse Node                 </td><td> Right, Left </td><td> Right, Left </td></tr>
 			<tr><td> Expand Node                          </td><td> Double-Click on tag </td><td> Double-Click on tag </td></tr>
 			<tr><td> Edit Attribute                       </td><td> Return or Double-Click on attribute </td><td> Enter or Double-Click on attribute </td></tr>
 		</tbody></table>
@@ -130,22 +129,22 @@
 		<table>
 			<tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
 			<tr><td> Edit Rule                            </td><td> Double-Click 	</td><td> Double-Click </td></tr>
-			<tr><td> Edit Next/Previous Property          </td><td> Tab, Shift-Tab 	</td><td> Tab, ⇧ + Tab </td></tr>
 			<tr><td> Insert New Property                  </td><td> Double-Click on whitespace </td><td> Double-Click on whitespace </td></tr>
-			<tr><td> Increment/Decrement Value            </td><td> Up, Down 		</td><td> Up, Down </td></tr>
-			<tr><td> Increment/Decrement Value by 10      </td><td> Shift + Up, Shift + Down </td><td> ⇧ + Up, ⇧ + Down </td></tr>
-			<tr><td> Increment/Decrement Value by 10      </td><td> PageUp, PageDown </td><td> PageUp, PageDown </td></tr>
-			<tr><td> Increment/Decrement Value by 100     </td><td> Shift + PageUp, Shift + PageDown </td><td> ⇧ + PageUp, ⇧ + PageDown </td></tr>
-			<tr><td> Increment/Decrement Value by 0.1     </td><td> Alt + Up, Alt + Down </td><td> ⌥ + Up, ⌥ + Down </td></tr>
+			<tr><td> Edit Next / Previous Property          </td><td> Tab, Shift-Tab 	</td><td> Tab, ⇧ + Tab </td></tr>
+			<tr><td> Increment / Decrement Value            </td><td> Up, Down 		</td><td> Up, Down </td></tr>
+			<tr><td> Increment / Decrement Value by 10      </td><td> Shift + Up, Shift + Down </td><td> ⇧ + Up, ⇧ + Down </td></tr>
+			<tr><td> Increment / Decrement Value by 10      </td><td> PgUp, PgDown </td><td> PgUp, PgDown </td></tr>
+			<tr><td> Increment / Decrement Value by 100     </td><td> Shift + PgUp, Shift + PgDown </td><td> ⇧ + PgUp, ⇧ + PgDown </td></tr>
+			<tr><td> Increment / Decrement Value by 0.1     </td><td> Alt + Up, Alt + Down </td><td> ⌥ + Up, ⌥ + Down </td></tr>
 		</tbody></table>
 
 		<p>
 			<img src="img/attributes.png" alt="Element Pseudostates" />
-			Emulating an element's pseudo state (:active, :hover, :focus, :visited)
+			Emulate an element's pseudo state (:active, :hover, :focus, :visited)
 		</p>
 		<p>
 			<img src="img/plus.png" alt="Element Pseudostates" />
-			Adding new style selectors
+			Add new style selectors
 		</p>
 	</section>
 
@@ -199,6 +198,8 @@
 			</li>
 		</ul>
 
+		<!-- Export network data into <a href="http://goo.gl/eDSY2">HAR format</a> -->
+
 	</section>
 
 	<section id="sources">
@@ -234,11 +235,14 @@
 		<a href="http://goo.gl/dZSwr" class="docs">Exceptions</a>
 	</section>
 
-	<!-- <section id="timeline">
-		<h2>Timeline Panel</h2>
+	<section id="timeline">
+		<h2>Timeline Panel <a href="http://goo.gl/y7rt0" class="docs">◊</a></h2>
 
-		<p><a href="http://goo.gl/y7rt0">Timeline Panel</a></p>
-	</section> -->
+		<table>
+			<tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
+			<tr><td> Start / Stop recording          </td><td> Ctrl + E		</td><td> ⌃ + E </td></tr>
+		</tbody></table>
+	</section>
 
 	<section id="profiles">
 		<h2>Profiles Panel <a href="http://goo.gl/y7rt0" class="docs">◊</a></h2>
@@ -247,8 +251,8 @@
 
 		<ul>
 			<li><strong>CPU profiler</strong>: shows where execution time is spent in your page's JavaScript functions</li>
-			<li><strong>Heap profiler</strong>: shows memory distribution by your page's JavaScript objects and related DOM nodes</li>
-		</ul>
+			<li><strong>Heap profiler</strong>: shows memory distribution by your page's JavaScript objects and related DOM nodes</li
+>		</ul>
 	</section>
 
 	<section id="console">
@@ -270,7 +274,7 @@
 
 		<h3>Right click on console:</h3>
 
-		<p>XMLHTTPRequest logging - Select to turn on so you can view the XHR log.</p>
+		<p>XMLHTTPRequest logging: Select to turn on so you can view the XHR log.</p>
 		<p>Preserve log upon navigation</p>
 
 	</section>
@@ -580,10 +584,10 @@
 			<img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/88x31.png" />
 		</a>
 		<br />
-		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
-	</p>
+		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />
 
-	<p>Cheatsheet by <a href="http://twitter.com/jaredwilli">Jared Williams</a>. Notify me if you find something that is incorrect.</p>
+		Cheatsheet by <a href="http://twitter.com/jaredwilli">Jared Williams</a>. Notify me if you find something that is incorrect.
+	</p>
 </footer>
 
 <div id="fb-root"></div>

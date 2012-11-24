@@ -64,6 +64,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
 section {
     background: #f7f7f7;
     border: 1px solid #ccc;
@@ -72,7 +73,7 @@ section {
     position: relative;
     padding: 0.5em 1em 0;
     margin: 1em 0;
-    width: 100%;
+    width: 98%;
 }
 
 a, a:visited {
@@ -139,6 +140,10 @@ footer {
     width: 100%;
     padding: 0 20px;
 }
+
+#themes .links {
+    padding-top: 10px;
+}
 .links li {
     float: left;
     width: 30%;
@@ -178,7 +183,7 @@ table td {
     width: 300px;
     display: inline-block;
     position: relative;
-    margin: 10px;
+    margin: 0.7em;
 }
 #network .netCols.timeline li {
     width: 330px;
@@ -194,9 +199,9 @@ table td {
     float: left;
 }
 
-#network .timelineCol {
-    width: 40%;
-    margin: 35px;
+#network .timeline {
+    position: relative;
+    left: 16%;
 }
 
 
@@ -214,6 +219,9 @@ table td {
 .share {
     display: inline-block;
     margin-left: 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 .fb-like {
     width: 40px;
@@ -222,7 +230,7 @@ table td {
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
 }
 
 .log-patterns {
