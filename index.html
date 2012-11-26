@@ -44,7 +44,7 @@
 		</div>
 
 		<div class="git-btn">
-			<iframe src="http://ghbtns.com/github-btn.html?user=jaredwilli&repo=devtools-cheatsheet&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe>
+			<iframe src="http://ghbtns.com/github-btn.html?user=jaredwilli&repo=devtools-cheatsheet&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"><\/iframe>
 		</div>
 
 		<div class="git-btn">
@@ -207,12 +207,12 @@
 
 		<table>
 			<tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
-			<tr><td> Select Next Call Frame               </td><td> Ctrl - . 					</td><td> ⌃ + . </td></tr>
-			<tr><td> Select Previous Call Frame           </td><td> Ctrl + , 					</td><td> ⌃ + , </td></tr>
-			<tr><td> Continue                             </td><td> F8 or Ctrl + / 				</td><td> F8, ⌘ + / </td></tr>
+			<tr><td> Continue                             </td><td> F8, Ctrl + / 				</td><td> F8, ⌘ + / </td></tr>
 			<tr><td> Step Over                            </td><td> F10, Ctrl + ' 				</td><td> F10, ⌘ + ' </td></tr>
 			<tr><td> Step Into                            </td><td> F11, Ctrl + ; 				</td><td> F11, ⌘ + ; </td></tr>
-			<tr><td> Step Out                             </td><td> Shift + F11, Ctrl + Shift + ; </td><td> ⇧ + F11, ⇧ + ⌘; </td></tr>
+			<tr><td> Step Out                             </td><td> Shift + F11, Ctrl + Shift + ; </td><td> ⇧ + F11, ⇧ + ⌘ + ; </td></tr>
+			<tr><td> Select Next Call Frame               </td><td> Ctrl - . 					</td><td> ⌃ + . </td></tr>
+			<tr><td> Select Previous Call Frame           </td><td> Ctrl + , 					</td><td> ⌃ + , </td></tr>
 			<tr><td> Evaluate Selection                   </td><td> Ctrl + Shift + E 			</td><td> ⇧ + ⌘ + E </td></tr>
 			<tr><td> Toggle Breakpoint Condition          </td><td> Click on line number 		</td><td> Click on line number </td></tr>
 			<tr><td> Edit Breakpoint Condition            </td><td> Right-Click on line number 	</td><td> Right-Click on line number </td></tr>
@@ -250,8 +250,8 @@
 		<p>Profiling types:</p>
 
 		<ul>
-			<li><strong>CPU profiler</strong>: shows where execution time is spent in your page's JavaScript functions</li>
-			<li><strong>Heap profiler</strong>: shows memory distribution by your page's JavaScript objects and related DOM nodes</li
+			<li><strong><a href="http://goo.gl/igHcw">CPU profiler</a></strong>: shows where execution time is spent in your page's JavaScript functions</li>
+			<li><strong><a href="http://goo.gl/9mBFW">Heap profiler</a></strong>: shows memory distribution by your page's JavaScript objects and related DOM nodes</li
 >		</ul>
 	</section>
 
@@ -341,12 +341,7 @@
 				</ul>
 			</td></tr>
 
-			<tr><td> console.memory() </td>									<td>  </td></tr>
-
-			<tr><td> console.performance() </td>							<td>  </td></tr>
-			<tr><td> console.performance.timing() </td>						<td>  </td></tr>
-			<tr><td> console.performance.memory() </td>						<td>  </td></tr>
-			<tr><td> console.performance.navigation() </td>					<td>  </td></tr>
+			<tr><td> console.memory() </td>									<td> An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize </td></tr>
 
 			<tr><td> console.profile([title]) </td>							<td> Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report. </td></tr>
 			<tr><td> console.profileEnd() </td>								<td> Turns off the JavaScript profiler and prints its report. </td></tr>
@@ -412,6 +407,11 @@
 
 			<tr><td> monitorEvents(object[, types]) </td>	<td> Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul". </td></tr>
 			<tr><td> unmonitorEvents(object[, types]) </td>	<td> Turns off logging for all events dispatched to an object. </td></tr>
+
+			<tr><td> performance </td>								<td>  </td></tr>
+			<tr><td> performance.timing </td>						<td>  </td></tr>
+			<tr><td> performance.memory </td>						<td>  </td></tr>
+			<tr><td> performance.navigation </td>					<td>  </td></tr>
 
 			<tr><td> profile([title]) </td>					<td> Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report. </td></tr>
 			<tr><td> profileEnd() </td>						<td> Turns off the JavaScript profiler and prints its report. </td></tr>
