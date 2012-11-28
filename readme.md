@@ -78,10 +78,10 @@ Increment / Decrement Value by 10  PgUp, PgDown  PgUp, PgDown
 Increment / Decrement Value by 100   Shift + PgUp, Shift + PgDown  ⇧ + PgUp, ⇧ + PgDown
 Increment / Decrement Value by 0.1   Alt + Up, Alt + Down  ⌥ + Up, ⌥ + Down
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
 Emulate an element's pseudo state (:active, :hover, :focus, :visited)
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Add style selectors](http://anti-code.com/devtools-cheatsheet/img/plus.png "Add style selectors")
 Add new style selectors
 
 
@@ -116,13 +116,16 @@ Toggle Breakpoint Condition  Click on line number  Click on line number
 Edit Breakpoint Condition  Right-Click on line number  Right-Click on line number
 
 
- Don't Pause on Exceptions
+![Don't Pause on Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnExceptionsButton.png "Don't Pause on Exceptions")
+Don't Pause on Exceptions
 
- Pause on All Exceptions (including those caught within try/catch blocks)
+![Pause on All Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtExceptionsButton.png "Pause on All Exceptions")
+Pause on All Exceptions (including those caught within try/catch blocks)
 
- Pause on Uncaught Exceptions (usually the one you want)
+![Pause on Uncaught Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtExceptionsButton.png "Pause on Uncaught Exceptions")
+Pause on Uncaught Exceptions (usually the one you want)
 
-Exceptions
+[Exceptions](http://goo.gl/dZSwr)
 
 
 ## Timeline Panel
@@ -229,7 +232,7 @@ $n(index)  Access to an array of last 5 inspected elements.
 dir(object)  Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
 dirxml(node)   Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
 clear()  Clears the console.
-inspect(object[, tabName])   Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
+instspect(object[, tabName])   Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
 keys(object)   Returns an array containing the names of all properties of the object.
 values(object)   Returns an array containing the values of all properties of the object.
 monitorEvents(object[, types])   Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
