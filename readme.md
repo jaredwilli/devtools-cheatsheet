@@ -223,43 +223,44 @@ String substitution patterns available when using console.log() are:
 
 ## Command Line API
 
-Command  Description
-$$   Returns an array of elements that match the given CSS selector.
-$0   The currently-selected object in the inspector.
-$_   The previously evaluated statement
-$1   The previously-selected object in the inspector.
-$n(index)  Access to an array of last 5 inspected elements.
-dir(object)  Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
-dirxml(node)   Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
-clear()  Clears the console.
-instspect(object[, tabName])   Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
-keys(object)   Returns an array containing the names of all properties of the object.
-values(object)   Returns an array containing the values of all properties of the object.
-monitorEvents(object[, types])   Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
-unmonitorEvents(object[, types])   Turns off logging for all events dispatched to an object.
-performance
-performance.timing
-performance.memory
-performance.navigation
-profile([title])   Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
-profileEnd()   Turns off the JavaScript profiler and prints its report.
+Command                             | Description
+------------                        | -------------
+$$ | Returns an array of elements that match the given CSS selector.
+$0 | The currently-selected object in the inspector.
+$_ | The previously evaluated statement
+$1 | The previously-selected object in the inspector.
+$n(index) | Access to an array of last 5 inspected elements.
+dir(object) | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
+dirxml(node) | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
+clear() | Clears the console.
+instspect(object[, tabName]) | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
+keys(object) | Returns an array containing the names of all properties of the object.
+values(object) | Returns an array containing the values of all properties of the object.
+monitorEvents(object[, types]) | Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
+unmonitorEvents(object[, types]) | Turns off logging for all events dispatched to an object.
+performance |
+performance.timing |
+performance.memory |
+performance.navigation |
+profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
+profileEnd() | Turns off the JavaScript profiler and prints its report.
 
 
 ## Flags
 
-Feature  Description
--disable-javascript  Disable JavaScript from command line.
--disable-images  Disable images.
--disable-java  Disable Java.
--disable-plugins   Disable plugins.
--disable-popup-blocking  Disable popup blocking.
--start-maximized   Start Chrome fullscreen
+Feature                             | Description
+------------                        | -------------
+-disable-javascript | Disable JavaScript from command line.
+-disable-images | Disable images.
+-disable-java | Disable Java.
+-disable-plugins | Disable plugins.
+-disable-popup-blocking | Disable popup blocking.
+-start-maximized | Start Chrome fullscreen
 
-For example: "C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript
+ - For example: "C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript
 
 
 ## DevTools Themes
-
   * MNML
   * ThemeMonokai
   * DarkTomorrow
@@ -277,38 +278,40 @@ You can tweak your skin for the DevTools using the DevTools themselves by undock
 
 Override the classes/IDs of Devtools for your theme via chrome-devtools:devtools/devTools.css.
 
-Read about how to customize your Devtools.
+Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
 
 ## Opening Google Chrome Features
 
-Windows / Linux  Mac
-Open a new window in incognito mode  Ctrl + Shift + N  ⌘ + Shift + N
-Toggle bookmarks bar on and off  Ctrl + B  Shift + ⌘ + B
-View the History page  Ctrl + H  ⌘ + Y
-View the Downloads page  Ctrl + J  Shift + ⌘ + J
-View the Task manager  Shift + ESC   Shift + ESC
-Previous page in a tabs browsing history   Backspace, Alt + ←  Backspace, Alt + ←
+                                    | Windows / Linux   | Mac
+------------                        | ------------- | -------------
+Open a new window in incognito mode | Ctrl + Shift + N | ⌘ + Shift + N
+Toggle bookmarks bar on and off | Ctrl + B | Shift + ⌘ + B
+View the History page | Ctrl + H | ⌘ + Y
+View the Downloads page | Ctrl + J | Shift + ⌘ + J
+View the Task manager | Shift + ESC | Shift + ESC
+Previous page in a tabs browsing history | Backspace, Alt + ← | Backspace, Alt + ←
 Places a '?' in the address bar. Type a search term after the '?'
-to perform a search using your default search engine   Ctrl + K, Ctrl + E  ⌘ + K, ⌘ + E
-Highlight content in the web address area  F6, Ctrl + L, Alt + D   F6, ⌘ + L, Alt + D
+to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
+Highlight content in the web address area | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
 
 ## about:pages
 
-Page   Description
-  * about:about  Displays all the chrome://chrome-urls
-  * about:stats  Display page statistics.
-  * about:memory   Display memory usage in a multi-process browser.
-  * about:plugins  Display installed plug-ins.
-  * about:histograms   Display connection times.
-  * about:dns  Display DNS information.
-  * about:cache  Display cached web pages.
-  * about:network  Display a menu for various network monitoring and testing.
-  * view-cache:stats   Display cached documents.
-  * chrome-resource:/favicon/  Display the binary data for a PNG file.
-  * chrome-resource:/new-tab/  A template for the empty tab page.
-  * about:version  Display information about the browser.
+Feature                             | Description
+------------                        | -------------
+about:about | Displays all the chrome://chrome-urls
+about:stats | Display page statistics.
+about:memory | Display memory usage in a multi-process browser.
+about:plugins | Display installed plug-ins.
+about:histograms | Display connection times.
+about:dns | Display DNS information.
+about:cache | Display cached web pages.
+about:network | Display a menu for various network monitoring and testing.
+view-cache:stats | Display cached documents.
+chrome-resource:/favicon/ | Display the binary data for a PNG file.
+chrome-resource:/new-tab/ | A template for the empty tab page.
+about:version | Display information about the browser.
 
 
 ## Chrome URLs
