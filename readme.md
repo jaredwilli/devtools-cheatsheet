@@ -113,7 +113,7 @@ Don't Pause on Exceptions
 ![Pause on All Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtExceptionsButton.png "Pause on All Exceptions")
 Pause on All Exceptions (including those caught within try/catch blocks)
 
-![Pause on Uncaught Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtExceptionsButton.png "Pause on Uncaught Exceptions")
+![Pause on Uncaught Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtErrorsButton.png "Pause on Uncaught Exceptions")
 Pause on Uncaught Exceptions (usually the one you want)
 
 [Exceptions](http://goo.gl/dZSwr)
