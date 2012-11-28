@@ -1,6 +1,5 @@
 # [Chrome Devtools Cheatsheet](http://anti-code.com/devtools-cheatsheet/)
 
-
 ----------------------------------------------
 ## [Opening Devtools](http://goo.gl/N68rh)
 
@@ -8,15 +7,15 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 
 1. Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
 2. Right-click on any page element and select **Inspect element**.
+
 3. Shortcut keys:
+                                                    | Windows / Linux   | Mac
+--------------------------------------------------- | ----------------- | -------------------
+Open Developer Tools                                | Ctrl + Shift + I  | ⌥ + ⌘ + I
+Open Developer Tools and bring focus to the Console | Ctrl + Shift + J  | ⌥ + ⌘ + J
+Toggle Inspect Element mode                         | Ctrl + Shift + C  | ⌥ + ⌘ + C
 
-                                                    | Windows / Linux     | Mac
---------------------------------------------------- | ------------------- | -------------------
-Open Developer Tools                                | Ctrl + Shift + I    | ⌥ + ⌘ + I
-Open Developer Tools and bring focus to the Console | Ctrl + Shift + J    | ⌥ + ⌘ + J
-Toggle Inspect Element mode                         | Ctrl + Shift + C    | ⌥ + ⌘ + C
-
-View the list of shortcuts: type ? when the Developer Tools window is open.
+View the list of shortcuts: type `?` when the Developer Tools window is open.
 
 
 ----------------------------------------------
@@ -52,7 +51,7 @@ Expand Node             | Double-Click on tag                 | Double-Click on 
 Edit Attribute          | Return or Double-Click on attribute | Enter or Double-Click on attribute
 
 **Right Clicking an Element you can:**
-  * Force Element Psuedo States: (:active, :hover, :focus, :visited)
+  * Force Element Psuedo States: (`:active`, `:hover`, `:focus`, `:visited`)
   * Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification, Node Removal)
 
 
@@ -71,7 +70,7 @@ Increment / Decrement Value by 100 | Shift + PgUp, Shift + PgDown | ⇧ + PgUp, 
 Increment / Decrement Value by 0.1 | Alt + Up, Alt + Down         | ⌥ + Up, ⌥ + Down
 
 ![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
-Emulate an element's pseudo state (:active, :hover, :focus, :visited)
+Emulate an element's pseudo state (`:active`, `:hover`, `:focus`, `:visited`)
 
 ![Add style selectors](http://anti-code.com/devtools-cheatsheet/img/plus.png "Add style selectors")
 Add new style selectors
@@ -92,7 +91,7 @@ Understanding the information displayed within each column.
 
 ![Initiator column details](http://anti-code.com/devtools-cheatsheet/img/network-initiatorCol.png "Initiator column details")
   * File that initialized the resource load
-  * How the resource load was scheduled
+  * How the resource load was scheduled (script or parse)
 
 ![Sorting Network Timeline Resources](http://anti-code.com/devtools-cheatsheet/img/networkTimelineSorting.png "Sorting Network Timeline Resources")
   * Select the Timeline heading to change sort modes for the network.
@@ -166,8 +165,10 @@ Multiline entry         | Shift + Enter    | Ctrl + Return
 Execute                 | Enter            | Return
 
 **Right click on console:**
+
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
   * Preserve log upon navigation
+
 
 ----------------------------------------------
 ## Search Shortcuts
@@ -198,22 +199,22 @@ console.dir(object)                            | Prints an interactive listing o
 console.dirxml(node)                           | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
 console.error(object[, object, ...])           | Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
 console.exception(error-object[, object, ...]) | Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
-console.group(object[, object, ...])           | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
-console.groupCollapsed(object[, object, ...])  | Like console.group(), but block is initially collapsed.
-console.groupEnd()                             | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
+console.group(object[, object, ...])           | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call `console.groupEnd()` to close the block.
+console.groupCollapsed(object[, object, ...])  | Like `console.group()`, but block is initially collapsed.
+console.groupEnd()                             | Closes the most recently opened block created by a call to `console.group()` or `console.groupCollapsed()`.
 console.hasOwnProperty()                       |
 console.info(object[, object, ...])            |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
 console.isPrototypeOf()                        |
 console.keys()                                 | Gives you the names of all the elements of an object.
 console.log(object[, object, ...])             | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well (see below).
-console.memory()                               | An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
+console.memory()                               | An object that returns: `jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize` objects containing information for the current page memory use.
 console.profile([title])                       | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
 console.profileEnd()                           | Turns off the JavaScript profiler and prints its report.
-console.profiles()                             | An array of profile objects that summarizes the data from profile().
+console.profiles()                             | An array of profile objects that summarizes the data from `profile()`.
 console.propertyIsEnumerable()                 |
 console.table(data[, columns])                 | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
-console.time([name])                           | Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed.
-console.timeEnd()                              | Stops a timer created by a call to console.time(name) and writes the time elapsed.
+console.time([name])                           | Creates a new timer under the given name. Call `console.timeEnd(name)` with the same name to stop the timer and print the time elapsed.
+console.timeEnd()                              | Stops a timer created by a call to `console.time(name)` and writes the time elapsed.
 console.timeStamp()                            |
 console.toLocaleString()                       |
 console.toString()                             |
@@ -221,15 +222,15 @@ console.trace()                                | Prints an interactive stack tra
 console.values()                               | Gives you all the values of those elements.
 console.warn(object[, object, ...])            | Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
 console.valueOf()                              |
-window.onerror                                 | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
+window.onerror                                 | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. 'window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };`
 
 String substitution patterns available when using console.log() are:
 
-  * String: %s                - console.log('The %s is a %s', animal, cat);
-  * Integer: %d, %i           - console.log('Number %d plus %i', 1, 2);
-  * Floating point number: %f - console.log('Floating points: %f', 1.5);
-  * Hyperlink: %o             - console.log('Live laugh code at $o', 'http://anti-code.com');
-  * Style formatting: %c      - console.log('%c This is white text on a black background', 'color: #fff; background:#000;');
+  * String: `%s`                - `console.log('The %s is a %s', animal, cat);`
+  * Integer: `%d, %i`           - `console.log('Number %d plus %i', 1, 2);`
+  * Floating point number: `%f` - `console.log('Floating points: %f', 1.5);`
+  * Hyperlink: `%o`             - `console.log('Live laugh code at $o', 'http://anti-code.com');`
+  * Style formatting: `%c`      - `console.log('%c This is white text on a black background', 'color: #fff; background:#000;');`
 
 
 ----------------------------------------------
@@ -270,7 +271,7 @@ Feature                 | Description
 -disable-popup-blocking | Disable popup blocking.
 -start-maximized        | Start Chrome fullscreen
 
- - For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
+> For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
 
 
 ----------------------------------------------
@@ -289,11 +290,11 @@ Feature                 | Description
   * [Dark Dev](http://goo.gl/BVIDe)
   * [WebLight Theme](http://goo.gl/E5NJh)
 
-You can tweak your skin for the DevTools using the DevTools itself.
-Undock it from the browser and type: Ctrl + Alt + I or ⌃ + Alt + I on Mac.
+> You can tweak your skin for the DevTools using the DevTools itself.
+> Undock it from the browser and type: Ctrl + Alt + I or ⌃ + Alt + I on Mac.
 
-Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtools/devTools.css_.
-Read about how to [customize your Devtools](http://goo.gl/3hOAW).
+> Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtools/devTools.css_.
+> Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
 
 ----------------------------------------------
@@ -404,7 +405,7 @@ you can type them into the address bar if you need them.
 
 =======================================================================================================
 
-![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
+> ![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
 > This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
 > Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
