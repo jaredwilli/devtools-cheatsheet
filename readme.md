@@ -1,7 +1,7 @@
 # Chrome Devtools Cheatsheet
 
----------------
 
+-------------------------------------
 ## Opening Devtools
 
 To access the developer tools, on any web page or app in Google Chrome you can use one of these options:
@@ -11,19 +11,19 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 3. Shortcut keys:
 
                                                     | Windows / Linux     | Mac
-------------                                        | ------------------- | -------------------
+--------------------------------------------------- | ------------------- | -------------------
 Open Developer Tools                                | Ctrl + Shift + I    | ⌥ + ⌘ + I
 Open Developer Tools and bring focus to the Console | Ctrl + Shift + J    | ⌥ + ⌘ + J
 Toggle Inspect Element mode                         | Ctrl + Shift + C    | ⌥ + ⌘ + C
 
 View the list of shortcuts: type ? when the Developer Tools window is open.
 
----------------------
 
+-------------------------------------
 ## Global Shortcuts
 
                            | Windows / Linux  | Mac
-------------               | ---------------- | -------------------
+-------------------------- | ---------------- | -------------------
 Open Shortcut Help         | ?                | ?
 Next Panel                 | Ctrl + ]         | ⌘ + ]
 Previous Panel             | Ctrl + [         | ⌘ + [
@@ -41,6 +41,7 @@ Zoom In                    | Ctrl +           | ⇧ +
 Zoom Out                   | Ctrl -           | ⇧ -
 
 
+-------------------------------------
 ## Elements Panel
 
                         | Windows / Linux                     | Mac
@@ -55,10 +56,11 @@ Edit Attribute          | Return or Double-Click on attribute | Enter or Double-
   * Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification, Node Removal)
 
 
+-------------------------------------
 ## Styles Sidebar
 
                                    | Windows / Linux              | Mac
-------------------                 | -------------------          | -------------------
+---------------------------------- | -------------------          | -------------------
 Edit Rule                          | Double-Click                 | Double-Click
 Insert New Property                | Double-Click on whitespace   | Double-Click on whitespace
 Edit Next / Previous Property      | Tab, Shift-Tab               | Tab, ⇧ + Tab
@@ -75,12 +77,13 @@ Emulate an element's pseudo state (:active, :hover, :focus, :visited)
 Add new style selectors
 
 
+-------------------------------------
 ## Network Panel
 
 Understanding the information displayed within each column.
 
 ![Size column details](http://anti-code.com/devtools-cheatsheet/img/network-sizeCol.png "Size column details")
-                  * **Size**: Total size of resource
+  * **Size**: Total size of resource
   * **Content**: Gzipped size of resource
 
 ![Time column details](http://anti-code.com/devtools-cheatsheet/img/network-timeCol.png "Time column details")
@@ -99,6 +102,7 @@ Select the Timeline heading to change sort modes for the network.
   * **Solid**: Total load time
 
 
+-------------------------------------
 ## Sources Panel
 
                             | Windows / Linux               | Mac
@@ -123,9 +127,10 @@ Pause on All Exceptions (including those caught within try/catch blocks)
 ![Pause on Uncaught Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnUncaughtErrorsButton.png "Pause on Uncaught Exceptions")
 Pause on Uncaught Exceptions (usually the one you want)
 
-[Exceptions](http://goo.gl/dZSwr)
+[Exceptions Documentation](http://goo.gl/dZSwr)
 
 
+-------------------------------------
 ## Timeline Panel
 
                        | Windows / Linux     | Mac
@@ -133,6 +138,7 @@ Pause on Uncaught Exceptions (usually the one you want)
 Start / Stop recording | Ctrl + E            | ⌃ + E
 
 
+-------------------------------------
 ## Profiles Panel
 
 Profiling types:
@@ -140,21 +146,22 @@ Profiling types:
   * **CPU profiler**: shows where execution time is spent in your page's JavaScript functions
   * **Heap profiler**: shows memory distribution by your page's JavaScript objects and related DOM nodes
 
+
 -------------------------------------
 ## Console
 
-                    | Windows / Linux  | Mac
-------------        | ---------------- | -------------------
-Next Suggestion     | Tab              | Tab
-Previous Suggestion | Shift + Tab      | ⇧ + Tab
-Accept Suggestion   | Right            | Right
-Previous Command / Line                | Up | Up
-Next Command / Line | Down             | Down
-Previous Command    | Ctrl + P         | ⌃ + P
-Next Command        | Ctrl + N         | ⌃ + N
-Clear History       | Ctrl + L         | ⌘ + K, ⌃ + L
-Multiline entry     | Shift + Enter    | Ctrl + Return
-Execute             | Enter            | Return
+                        | Windows / Linux  | Mac
+----------------------- | ---------------- | -------------------
+Next Suggestion         | Tab              | Tab
+Previous Suggestion     | Shift + Tab      | ⇧ + Tab
+Accept Suggestion       | Right            | Right
+Previous Command / Line | Up               | Up
+Next Command / Line     | Down             | Down
+Previous Command        | Ctrl + P         | ⌃ + P
+Next Command            | Ctrl + N         | ⌃ + N
+Clear History           | Ctrl + L         | ⌘ + K, ⌃ + L
+Multiline entry         | Shift + Enter    | Ctrl + Return
+Execute                 | Enter            | Return
 
 **Right click on console:**
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
@@ -166,18 +173,19 @@ Execute             | Enter            | Return
 Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
 
                                                                       | Windows / Linux     | Mac
-------------                                                         | ------------------- | -------------------
+--------------------------------------------------------------------- | ------------------- | --------------------
 Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
 Text search within current file                                       | Ctrl + F            | ⌘ + F
 Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Opt + F
-Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O | ⌘ + ⌘ + O
-Launch line number dialog when viewing a file                         | Ctrl + K | ⌘ + L
+Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + ⌘ + O
+Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
+
 
 -------------------------------------
 ## Console API
 
 Command                                        | Description
-------------                                   | -------------
+---------------------------------------------- | -----------------------------------------------------
 console.assert(expression[, object, ...])      | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
 console.clear()                                | Clears the console.
 console.constructor()                          |
@@ -190,7 +198,7 @@ console.error(object[, object, ...])           | Writes a message to the console
 console.exception(error-object[, object, ...]) | Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
 console.group(object[, object, ...])           | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
 console.groupCollapsed(object[, object, ...])  | Like console.group(), but block is initially collapsed.
-console.groupEnd() | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
+console.groupEnd()                             | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
 console.hasOwnProperty()                       |
 console.info(object[, object, ...])            |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
 console.isPrototypeOf()                        |
@@ -214,65 +222,69 @@ console.valueOf()                              |
 window.onerror                                 | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
 
 String substitution patterns available when using console.log() are:
-  * String: %s -                console.log('The %s is a %s', animal, cat);
-  * Integer: %d, %i -           console.log('Number %d plus %i', 1, 2);
+  * String: %s                - console.log('The %s is a %s', animal, cat);
+  * Integer: %d, %i           - console.log('Number %d plus %i', 1, 2);
   * Floating point number: %f - console.log('Floating points: %f', 1.5);
-  * Hyperlink: %o -             console.log('Live laugh code at $o', 'http://anti-code.com');
-  * Style formatting: %c -      console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
+  * Hyperlink: %o             - console.log('Live laugh code at $o', 'http://anti-code.com');
+  * Style formatting: %c      - console.log('%c This is white text on a black background', 'color: #fff; background:#000;');
+
 
 -------------------------------------
 ## Command Line API
 
-Command      | Description
------------- | -------------
-$$ | Returns an array of elements that match the given CSS selector.
-$0 | The currently-selected object in the inspector.
-$_ | The previously evaluated statement
-$1 | The previously-selected object in the inspector.
-$n(index) | Access to an array of last 5 inspected elements.
-dir(object) | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
-dirxml(node) | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
-clear() | Clears the console.
-instspect(object[, tabName]) | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
-keys(object) | Returns an array containing the names of all properties of the object.
-values(object) | Returns an array containing the values of all properties of the object.
-monitorEvents(object[, types]) | Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
+Command                          | Description
+-------------------------------- | ----------------------------------------------------
+$$                               | Returns an array of elements that match the given CSS selector.
+$0                               | The currently-selected object in the inspector.
+$_                               | The previously evaluated statement
+$1                               | The previously-selected object in the inspector.
+$n(index)                        | Access to an array of last 5 inspected elements.
+dir(object)                      | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
+dirxml(node)                     | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
+clear()                          | Clears the console.
+instspect(object[, tabName])     | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
+keys(object)                     | Returns an array containing the names of all properties of the object.
+values(object)                   | Returns an array containing the values of all properties of the object.
+monitorEvents(object[, types])   | Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
 unmonitorEvents(object[, types]) | Turns off logging for all events dispatched to an object.
-performance |
-performance.timing |
-performance.memory |
-performance.navigation |
-profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
-profileEnd() | Turns off the JavaScript profiler and prints its report.
+performance                      |
+performance.timing               |
+performance.memory               |
+performance.navigation           |
+profile([title])                 | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
+profileEnd()                     | Turns off the JavaScript profiler and prints its report.
+
 
 -------------------------------------
 ## Flags
 
-Feature      | Description
------------- | -------------
--disable-javascript | Disable JavaScript from command line.
--disable-images | Disable images.
--disable-java | Disable Java.
--disable-plugins | Disable plugins.
+Feature                 | Description
+----------------------- | -----------------------------------------------------
+-disable-javascript     | Disable JavaScript from command line.
+-disable-images         | Disable images.
+-disable-java           | Disable Java.
+-disable-plugins        | Disable plugins.
 -disable-popup-blocking | Disable popup blocking.
--start-maximized | Start Chrome fullscreen
+-start-maximized        | Start Chrome fullscreen
 
  - For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
 
+
 -------------------------------------
 ## DevTools Themes
-  * MNML
-  * ThemeMonokai
-  * DarkTomorrow
-  * ThemeIR_Black
-  * ThemeIR_Black - Theme with sidebar colors
-  * Solarized
-  * DarkRuby Blue
-  * Expresso
-  * Inversion
-  * Dark Theme
-  * Dark Dev
-  * WebLight Theme
+
+  * [MNML]()
+  * [ThemeMonokai]()
+  * [DarkTomorrow]()
+  * [ThemeIR_Black]()
+  * [ThemeIR_Black - Theme with sidebar colors]()
+  * [Solarized]()
+  * [DarkRuby Blue]()
+  * [Expresso]()
+  * [Inversion]()
+  * [Dark Theme]()
+  * [Dark Dev]()
+  * [WebLight Theme]()
 
 You can tweak your skin for the DevTools using the DevTools themselves by undocking them then hitting Ctrl + Alt + I or ⌃ + Alt + I on Mac.
 
@@ -280,39 +292,41 @@ Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtool
 
 Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
+
 -------------------------------------
 ## Opening Google Chrome Features
+                                                                           | Windows / Linux       | Mac
+-------------------------------------------------------------------------- | --------------------- | -------------------
+Open a new window in incognito mode                                        | Ctrl + Shift + N      | ⌘ + Shift + N
+Toggle bookmarks bar on and off                                            | Ctrl + B              | Shift + ⌘ + B
+View the History page                                                      | Ctrl + H              | ⌘ + Y
+View the Downloads page                                                    | Ctrl + J              | Shift + ⌘ + J
+View the Task manager                                                      | Shift + ESC           | Shift + ESC
+Previous page in a tabs browsing history                                   | Backspace, Alt + ←    | Backspace, Alt + ←
+Focus the address bar with a '?' and type a search term after it to search | Ctrl + K, Ctrl + E    | ⌘ + K, ⌘ + E
+Highlight content in the web address area                                  | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
-                                          | Windows / Linux    | Mac
------------------------------------------ | -----------------  | -------------------
-Open a new window in incognito mode       | Ctrl + Shift + N   | ⌘ + Shift + N
-Toggle bookmarks bar on and off           | Ctrl + B           | Shift + ⌘ + B
-View the History page                     | Ctrl + H           | ⌘ + Y
-View the Downloads page                   | Ctrl + J           | Shift + ⌘ + J
-View the Task manager                     | Shift + ESC        | Shift + ESC
-Previous page in a tabs browsing history  | Backspace, Alt + ← | Backspace, Alt + ←
-Type a search term after the '?' to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
-Highlight content in the web address area | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
 -------------------------------------
 ## about:pages
 
-Feature      | Description
------------- | -------------
-about:about | Displays all the chrome://chrome-urls
-about:stats | Display page statistics.
-about:memory | Display memory usage in a multi-process browser.
-about:plugins | Display installed plug-ins.
-about:histograms | Display connection times.
-about:dns | Display DNS information.
-about:cache | Display cached web pages.
-about:network | Display a menu for various network monitoring and testing.
-view-cache:stats | Display cached documents.
+Feature                   | Description
+------------------------- | -------------------------------------------------
+about:about               | Displays all the chrome://chrome-urls
+about:stats               | Display page statistics.
+about:memory              | Display memory usage in a multi-process browser.
+about:plugins             | Display installed plug-ins.
+about:histograms          | Display connection times.
+about:dns                 | Display DNS information.
+about:cache               | Display cached web pages.
+about:network             | Display a menu for various network monitoring and testing.
+view-cache:stats          | Display cached documents.
 chrome-resource:/favicon/ | Display the binary data for a PNG file.
 chrome-resource:/new-tab/ | A template for the empty tab page.
-about:version | Display information about the browser.
+about:version             | Display information about the browser.
 
 
+-------------------------------------
 ## Chrome URLs
 
   * chrome://chrome-urls == about:about
@@ -349,9 +363,11 @@ about:version | Display information about the browser.
   * chrome://workers
   * chrome://conflicts
 
+-------------------------------------
 ### For Debugging
 
-The following pages are for debugging purposes only. Because they crash or hang the renderer, they're not linked directly; you can type them into the address bar if you need them.
+The following pages are for debugging purposes only. Because they crash or hang the renderer, they're not linked directly;
+you can type them into the address bar if you need them.
 
   * chrome://crash
   * chrome://kill
@@ -362,28 +378,30 @@ The following pages are for debugging purposes only. Because they crash or hang 
   * chrome://gpuhang
 
 
+-------------------------------------
 ## Devtools Links
 
-  * Getting started
-  * Inspecting Elements and Resources
-  * Debugging JavaScript
-  * Profiling and Optimizing
-  * Timeline Panel
-  * Console API
-  * Command Line API
-  * JavaScript Console Power User
-  * Chrome Devtools
-  * Chrome Shortcuts
-  * The Breakpoint #2
-  * Google IO 2010 session
-  * Google IO 2011 session
-  * Google IO 2012: Developer Tools Evolution
-  * Secrets of the Chrome Developer Tools
-  * Wait, DevTools could do THAT?
+  * [Getting started]()
+  * [Inspecting Elements and Resources]()
+  * [Debugging JavaScript]()
+  * [Profiling and Optimizing]()
+  * [Timeline Panel]()
+  * [Console API]()
+  * [Command Line API]()
+  * [JavaScript Console Power User]()
+  * [Chrome Devtools]()
+  * [Chrome Shortcuts]()
+  * [The Breakpoint #2]()
+  * [Google IO 2010 session]()
+  * [Google IO 2011 session]()
+  * [Google IO 2012: Developer Tools Evolution]()
+  * [Secrets of the Chrome Developer Tools]()
+  * [Wait, DevTools could do THAT?]()
 
 
-This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
+> This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-[Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet) | [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
+> Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
+
+> [Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet) | [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
