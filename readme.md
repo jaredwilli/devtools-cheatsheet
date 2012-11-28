@@ -6,13 +6,15 @@
 
 To access the developer tools, on any web page or app in Google Chrome you can use one of these options:
 
-Select the Wrench menu at the top-right of your browser window, then select Tools → Developer tools.
-Right-click on any page element and select Inspect element.
+1. Select the Wrench menu at the top-right of your browser window, then select Tools → Developer tools.
+2. Right-click on any page element and select Inspect element.
 
-Windows / Linux  Mac
-Open Developer Tools   Ctrl + Shift + I  ⌥ + ⌘ + I
-Open Developer Tools and bring focus to the Console  Ctrl + Shift + J  ⌥ + ⌘ + J
-Toggle Inspect Element mode  Ctrl + Shift + C  ⌥ + ⌘ + C
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
+Open Developer Tools | Ctrl + Shift + I | ⌥ + ⌘ + I
+Open Developer Tools and bring focus to the Console | Ctrl + Shift + J | ⌥ + ⌘ + J
+Toggle Inspect Element mode | Ctrl + Shift + C | ⌥ + ⌘ + C
+
 View the list of shortcuts: type ? when the Developer Tools window is open.
 
 ---------------------
@@ -35,7 +37,8 @@ Content Cell | Content Cell  | Content Cell
 | Left         | Center        | Right        |
 
 
-Windows   Linux / Mac
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
 Open Shortcut Help       ?        ?
 Next Panel      Ctrl + ]   ⌘ + ]
 Previous Panel   Ctrl + [  ⌘ + [
@@ -55,7 +58,8 @@ Zoom Out   Ctrl -  ⇧ -
 
 ## Elements Panel
 
-Windows / Linux  Mac
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
 Navigate   Up, Down  Up, Down
 Expand / Collapse Node   Right, Left   Right, Left
 Expand Node  Double-Click on tag   Double-Click on tag
@@ -68,7 +72,8 @@ Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification,
 
 ## Styles Sidebar
 
-Windows / Linux  Mac
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
 Edit Rule  Double-Click  Double-Click
 Insert New Property  Double-Click on whitespace  Double-Click on whitespace
 Edit Next / Previous Property  Tab, Shift-Tab  Tab, ⇧ + Tab
@@ -104,7 +109,8 @@ Understanding the information displayed within each column.
 
 ## Sources Panel
 
-Windows / Linux  Mac
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
 Continue   F8, Ctrl + /  F8, ⌘ + /
 Step Over  F10, Ctrl + '   F10, ⌘ + '
 Step Into  F11, Ctrl + ;   F11, ⌘ + ;
@@ -130,8 +136,9 @@ Pause on Uncaught Exceptions (usually the one you want)
 
 ## Timeline Panel
 
-Windows / Linux  Mac
-Start / Stop recording   Ctrl + E  ⌃ + E
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
+Start / Stop recording | Ctrl + E | ⌃ + E
 
 
 ## Profiles Panel
@@ -144,20 +151,20 @@ Profiling types:
 
 ## Console
 
-Windows / Linux  Mac
-Next Suggestion  Tab   Tab
-Previous Suggestion  Shift + Tab   ⇧ + Tab
-Accept Suggestion  Right   Right
-Previous Command / Line  Up  Up
-Next Command / Line  Down  Down
-Previous Command   Ctrl + P  ⌃ + P
-Next Command   Ctrl + N  ⌃ + N
-Clear History  Ctrl + L  ⌘ + K, ⌃ + L
-Multiline entry  Shift + Enter   Ctrl + Return
-Execute  Enter   Return
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
+Next Suggestion | Tab | Tab
+Previous Suggestion | Shift + Tab | ⇧ + Tab
+Accept Suggestion | Right | Right
+Previous Command / Line | Up | Up
+Next Command / Line | Down | Down
+Previous Command | Ctrl + P | ⌃ + P
+Next Command | Ctrl + N  ⌃ + N
+Clear History | Ctrl + L  ⌘ + K, ⌃ + L
+Multiline entry | Shift + Enter | Ctrl + Return
+Execute | Enter | Return
 
-Right click on console:
-
+**Right click on console:**
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
   * Preserve log upon navigation
 
@@ -166,18 +173,19 @@ Right click on console:
 
 Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
 
-Windows / Linux  Mac
-Search scripts, stylesheets and snippets by filename   Ctrl + O  ⌘ + O
-Text search within current file  Ctrl + F  ⌘ + F
-Text search across all files   Ctrl + Shift + F  ⌘ + Opt + F
-Filter/navigate to a JavaScript function/CSS rule when viewing a file  Ctrl + Shift + O  ⌘ + ⌘ + O
-Launch line number dialog when viewing a file  Ctrl + K  ⌘ + L
+             | Windows / Linux     | Mac
+------------ | ------------------- | -------------------
+Search scripts, stylesheets and snippets by filename | Ctrl + O | ⌘ + O
+Text search within current file | Ctrl + F | ⌘ + F
+Text search across all files | Ctrl + Shift + F | ⌘ + Opt + F
+Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O | ⌘ + ⌘ + O
+Launch line number dialog when viewing a file | Ctrl + K | ⌘ + L
 
 
 ## Console API
 
-Command                             | Description
-------------                        | -------------
+Command      | Description
+------------ | -------------
 console.assert(expression[, object, ...]) | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
 console.clear() | Clears the console.
 console.constructor() |
@@ -223,8 +231,8 @@ String substitution patterns available when using console.log() are:
 
 ## Command Line API
 
-Command                             | Description
-------------                        | -------------
+Command      | Description
+------------ | -------------
 $$ | Returns an array of elements that match the given CSS selector.
 $0 | The currently-selected object in the inspector.
 $_ | The previously evaluated statement
@@ -248,8 +256,8 @@ profileEnd() | Turns off the JavaScript profiler and prints its report.
 
 ## Flags
 
-Feature                             | Description
-------------                        | -------------
+Feature      | Description
+------------ | -------------
 -disable-javascript | Disable JavaScript from command line.
 -disable-images | Disable images.
 -disable-java | Disable Java.
@@ -257,7 +265,7 @@ Feature                             | Description
 -disable-popup-blocking | Disable popup blocking.
 -start-maximized | Start Chrome fullscreen
 
- - For example: "C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript
+ - For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
 
 
 ## DevTools Themes
@@ -276,30 +284,29 @@ Feature                             | Description
 
 You can tweak your skin for the DevTools using the DevTools themselves by undocking them then hitting Ctrl + Alt + I or ⌃ + Alt + I on Mac.
 
-Override the classes/IDs of Devtools for your theme via chrome-devtools:devtools/devTools.css.
+Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtools/devTools.css_.
 
 Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
 
 ## Opening Google Chrome Features
 
-                                    | Windows / Linux   | Mac
-------------                        | ------------- | -------------
+             | Windows / Linux   | Mac
+------------ | ----------------- | -------------------
 Open a new window in incognito mode | Ctrl + Shift + N | ⌘ + Shift + N
 Toggle bookmarks bar on and off | Ctrl + B | Shift + ⌘ + B
 View the History page | Ctrl + H | ⌘ + Y
 View the Downloads page | Ctrl + J | Shift + ⌘ + J
 View the Task manager | Shift + ESC | Shift + ESC
 Previous page in a tabs browsing history | Backspace, Alt + ← | Backspace, Alt + ←
-Places a '?' in the address bar. Type a search term after the '?'
-to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
+Places a '?' in the address bar. Type a search term after the '?' to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
 Highlight content in the web address area | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
 
 ## about:pages
 
-Feature                             | Description
-------------                        | -------------
+Feature      | Description
+------------ | -------------
 about:about | Displays all the chrome://chrome-urls
 about:stats | Display page statistics.
 about:memory | Display memory usage in a multi-process browser.
@@ -363,7 +370,7 @@ The following pages are for debugging purposes only. Because they crash or hang 
   * chrome://gpuhang
 
 
-Devtools Links
+## Devtools Links
 
   * Getting started
   * Inspecting Elements and Resources
@@ -383,8 +390,8 @@ Devtools Links
   * Wait, DevTools could do THAT?
 
 
-This work is licensed under a Creative Commons Attribution 3.0 Unported License.
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-Cheatsheet by Jared Williams. Notify me if you find something that is incorrect.
+Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
 
-Contribute to Cheatsheet | Contribute to Devtools
+[Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet) | [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
