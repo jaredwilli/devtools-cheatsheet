@@ -195,12 +195,7 @@ console.hasOwnProperty() |
 console.info(object[, object, ...]) |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
 console.isPrototypeOf() |
 console.keys() | Gives you the names of all the elements of an object.
-console.log(object[, object, ...]) | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well which are:
-                                      * String: %s - console.log('The %s is a %s', animal, cat);
-                                      * Integer: %d, %i - console.log('Number %d plus %i', 1, 2);
-                                      * Floating point number: %f - console.log('Floating points: %f', 1.5);
-                                      * Hyperlink: %o - console.log('Live laugh code at $o', 'http://anti-code.com');
-                                      * Style formatting: %c - console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
+console.log(object[, object, ...]) | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well (see below).
 console.memory() | An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
 console.profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
 console.profileEnd() | Turns off the JavaScript profiler and prints its report.
@@ -217,6 +212,13 @@ console.values() | Gives you all the values of those elements.
 console.warn(object[, object, ...]) | Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
 console.valueOf() |
 window.onerror | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
+
+String substitution patterns available when using console.log() are:
+  * String: %s - console.log('The %s is a %s', animal, cat);
+  * Integer: %d, %i - console.log('Number %d plus %i', 1, 2);
+  * Floating point number: %f - console.log('Floating points: %f', 1.5);
+  * Hyperlink: %o - console.log('Live laugh code at $o', 'http://anti-code.com');
+  * Style formatting: %c - console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
 
 
 ## Command Line API
