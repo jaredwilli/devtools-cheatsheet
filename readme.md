@@ -405,10 +405,11 @@ you can type them into the address bar if you need them.
 
 =======================================================================================================
 
-> ![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
-> This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
 
-> Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-> [Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet)
-> [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
+Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
+[Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet)
+
+[Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
