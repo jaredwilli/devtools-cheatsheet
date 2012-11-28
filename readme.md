@@ -184,7 +184,7 @@ console.constructor() |
 console.count([title]) | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
 console.copy() | Copies everything passed to it to the clipboard.
 console.debug(object[, object, ...]) | Writes a message to the console, including a hyperlink to the line where it was called.
-console.dir(object)  Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
+console.dir(object) | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
 console.dirxml(node) | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
 console.error(object[, object, ...]) | Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
 console.exception(error-object[, object, ...]) | Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
