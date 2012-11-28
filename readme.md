@@ -22,22 +22,6 @@ View the list of shortcuts: type ? when the Developer Tools window is open.
 
 ## Global Shortcuts
 
-First Header | Second Header | Third Header
------------- | ------------- | ------------
-Content Cell | Content Cell  | Content Cell
-Content Cell | Content Cell  | Content Cell
-
-| First Header | Second Header | Third Header |
-| ------------ | ------------- | ------------ |
-| Content Cell | Content Cell  | Content Cell |
-| Content Cell | Content Cell  | Content Cell |
-
-| First Header | Second Header | Third Header |
-| :----------- | :-----------: | -----------: |
-| Left         | Center        | Right        |
-| Left         | Center        | Right        |
-
-
              | Windows / Linux     | Mac
 ------------ | ------------------- | -------------------
 Open Shortcut Help | ? | ?
