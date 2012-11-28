@@ -1,13 +1,13 @@
-# Chrome Devtools Cheatsheet
+# [Chrome Devtools Cheatsheet](http://anti-code.com/devtools-cheatsheet/)
 
 
--------------------------------------
-## Opening Devtools
+----------------------------------------------
+## [Opening Devtools](http://goo.gl/N68rh)
 
 To access the developer tools, on any web page or app in Google Chrome you can use one of these options:
 
-1. Select the Wrench menu at the top-right of your browser window, then select Tools → Developer tools.
-2. Right-click on any page element and select Inspect element.
+1. Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
+2. Right-click on any page element and select **Inspect element**.
 3. Shortcut keys:
 
                                                     | Windows / Linux     | Mac
@@ -19,7 +19,7 @@ Toggle Inspect Element mode                         | Ctrl + Shift + C    | ⌥ 
 View the list of shortcuts: type ? when the Developer Tools window is open.
 
 
--------------------------------------
+----------------------------------------------
 ## Global Shortcuts
 
                            | Windows / Linux  | Mac
@@ -41,11 +41,11 @@ Zoom In                    | Ctrl +           | ⇧ +
 Zoom Out                   | Ctrl -           | ⇧ -
 
 
--------------------------------------
-## Elements Panel
+----------------------------------------------
+## [Elements Panel](http://goo.gl/DjP6v)
 
                         | Windows / Linux                     | Mac
---------------------    | -------------------                 | -------------------
+----------------------- | ----------------------------------- | ---------------------------------
 Navigate                | Up, Down                            | Up, Down
 Expand / Collapse Node  | Right, Left                         | Right, Left
 Expand Node             | Double-Click on tag                 | Double-Click on tag
@@ -56,11 +56,11 @@ Edit Attribute          | Return or Double-Click on attribute | Enter or Double-
   * Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification, Node Removal)
 
 
--------------------------------------
-## Styles Sidebar
+----------------------------------------------
+## [Styles Sidebar](http://goo.gl/ZisTc)
 
                                    | Windows / Linux              | Mac
----------------------------------- | -------------------          | -------------------
+---------------------------------- | ---------------------------- | ----------------------------
 Edit Rule                          | Double-Click                 | Double-Click
 Insert New Property                | Double-Click on whitespace   | Double-Click on whitespace
 Edit Next / Previous Property      | Tab, Shift-Tab               | Tab, ⇧ + Tab
@@ -78,7 +78,7 @@ Add new style selectors
 
 
 -------------------------------------
-## Network Panel
+## [Network Panel](http://goo.gl/y7rt0)
 
 Understanding the information displayed within each column.
 
@@ -95,18 +95,20 @@ Understanding the information displayed within each column.
   * How the resource load was scheduled
 
 ![Sorting Network Timeline Resources](http://anti-code.com/devtools-cheatsheet/img/networkTimelineSorting.png "Sorting Network Timeline Resources")
-Select the Timeline heading to change sort modes for the network.
+  * Select the Timeline heading to change sort modes for the network.
 
 ![Resource Waterfall](http://anti-code.com/devtools-cheatsheet/img/network-timlineWaterfall.png "Resource Waterfall")
   * **Transparent**: Latency load time
   * **Solid**: Total load time
 
+Export network data into <a href="http://goo.gl/eDSY2">HAR format</a> for reloading into Chrome another time.
 
--------------------------------------
-## Sources Panel
+
+----------------------------------------------
+## [Sources Panel](http://goo.gl/VsxZA)
 
                             | Windows / Linux               | Mac
---------------------------- | -------------------           | -------------------
+--------------------------- | ----------------------------- | -------------------
 Continue                    | F8, Ctrl + /                  | F8, ⌘ + /
 Step Over                   | F10, Ctrl + '                 | F10, ⌘ + '
 Step Into                   | F11, Ctrl + ;                 | F11, ⌘ + ;
@@ -130,25 +132,25 @@ Pause on Uncaught Exceptions (usually the one you want)
 [Exceptions Documentation](http://goo.gl/dZSwr)
 
 
--------------------------------------
-## Timeline Panel
+----------------------------------------------
+## [Timeline Panel](http://goo.gl/wsxO3)
 
-                       | Windows / Linux     | Mac
----------------------- | ------------------- | -------------------
-Start / Stop recording | Ctrl + E            | ⌃ + E
+                       | Windows / Linux  | Mac
+---------------------- | ---------------- | -------------------
+Start / Stop recording | Ctrl + E         | ⌃ + E
 
 
--------------------------------------
-## Profiles Panel
+----------------------------------------------
+## [Profiles Panel](http://goo.gl/WHAui)
 
 Profiling types:
 
-  * **CPU profiler**: shows where execution time is spent in your page's JavaScript functions
-  * **Heap profiler**: shows memory distribution by your page's JavaScript objects and related DOM nodes
+  * **[CPU profiler](http://goo.gl/igHcw)**: shows where execution time is spent in your page's JavaScript functions
+  * **[Heap profiler](http://goo.gl/9mBFW)**: shows memory distribution by your page's JavaScript objects and related DOM nodes
 
 
--------------------------------------
-## Console
+----------------------------------------------
+## [Console](http://goo.gl/cu0vw)
 
                         | Windows / Linux  | Mac
 ----------------------- | ---------------- | -------------------
@@ -167,7 +169,7 @@ Execute                 | Enter            | Return
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
   * Preserve log upon navigation
 
--------------------------------------
+----------------------------------------------
 ## Search Shortcuts
 
 Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
@@ -181,8 +183,8 @@ Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + S
 Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
 
 
--------------------------------------
-## Console API
+----------------------------------------------
+## [Console API](http://goo.gl/Pfxc6)
 
 Command                                        | Description
 ---------------------------------------------- | -----------------------------------------------------
@@ -222,6 +224,7 @@ console.valueOf()                              |
 window.onerror                                 | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
 
 String substitution patterns available when using console.log() are:
+
   * String: %s                - console.log('The %s is a %s', animal, cat);
   * Integer: %d, %i           - console.log('Number %d plus %i', 1, 2);
   * Floating point number: %f - console.log('Floating points: %f', 1.5);
@@ -229,8 +232,8 @@ String substitution patterns available when using console.log() are:
   * Style formatting: %c      - console.log('%c This is white text on a black background', 'color: #fff; background:#000;');
 
 
--------------------------------------
-## Command Line API
+----------------------------------------------
+## [Command Line API](http://goo.gl/TgehZ)
 
 Command                          | Description
 -------------------------------- | ----------------------------------------------------
@@ -255,8 +258,8 @@ profile([title])                 | Turns on the JavaScript profiler. The optiona
 profileEnd()                     | Turns off the JavaScript profiler and prints its report.
 
 
--------------------------------------
-## Flags
+----------------------------------------------
+## [Flags](http://goo.gl/0azd)
 
 Feature                 | Description
 ----------------------- | -----------------------------------------------------
@@ -270,30 +273,30 @@ Feature                 | Description
  - For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
 
 
--------------------------------------
-## DevTools Themes
+----------------------------------------------
+## [DevTools Themes](http://devthemez.com/)
 
-  * [MNML]()
-  * [ThemeMonokai]()
-  * [DarkTomorrow]()
-  * [ThemeIR_Black]()
-  * [ThemeIR_Black - Theme with sidebar colors]()
-  * [Solarized]()
-  * [DarkRuby Blue]()
-  * [Expresso]()
-  * [Inversion]()
-  * [Dark Theme]()
-  * [Dark Dev]()
-  * [WebLight Theme]()
+  * [MNML Theme](http://goo.gl/NNzwh)
+  * [Monokai Dark](http://goo.gl/KgNfU)
+  * [Tomorrow Theme](http://goo.gl/tcELr)
+  * [IR_Black Theme](http://goo.gl/Ou6WA)
+  * [IR_Black Theme - with sidebar colors](http://goo.gl/5ddPs)
+  * [Solarized Dark](http://goo.gl/W0INT)
+  * [Ruby Blue](http://goo.gl/MxIjz)
+  * [Expresso](http://goo.gl/zK2Sn)
+  * [Inversion](http://goo.gl/T1SeZ)
+  * [Dark Theme](http://goo.gl/viN4b)
+  * [Dark Dev](http://goo.gl/BVIDe)
+  * [WebLight Theme](http://goo.gl/E5NJh)
 
-You can tweak your skin for the DevTools using the DevTools themselves by undocking them then hitting Ctrl + Alt + I or ⌃ + Alt + I on Mac.
+You can tweak your skin for the DevTools using the DevTools itself.
+Undock it from the browser and type: Ctrl + Alt + I or ⌃ + Alt + I on Mac.
 
 Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtools/devTools.css_.
-
 Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
 
--------------------------------------
+----------------------------------------------
 ## Opening Google Chrome Features
                                                                            | Windows / Linux       | Mac
 -------------------------------------------------------------------------- | --------------------- | -------------------
@@ -307,7 +310,7 @@ Focus the address bar with a '?' and type a search term after it to search | Ctr
 Highlight content in the web address area                                  | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
 
--------------------------------------
+----------------------------------------------
 ## about:pages
 
 Feature                   | Description
@@ -326,7 +329,7 @@ chrome-resource:/new-tab/ | A template for the empty tab page.
 about:version             | Display information about the browser.
 
 
--------------------------------------
+----------------------------------------------
 ## Chrome URLs
 
   * chrome://chrome-urls == about:about
@@ -363,7 +366,7 @@ about:version             | Display information about the browser.
   * chrome://workers
   * chrome://conflicts
 
--------------------------------------
+----------------------------------------------
 ### For Debugging
 
 The following pages are for debugging purposes only. Because they crash or hang the renderer, they're not linked directly;
@@ -378,30 +381,33 @@ you can type them into the address bar if you need them.
   * chrome://gpuhang
 
 
--------------------------------------
+----------------------------------------------
 ## Devtools Links
 
-  * [Getting started]()
-  * [Inspecting Elements and Resources]()
-  * [Debugging JavaScript]()
-  * [Profiling and Optimizing]()
-  * [Timeline Panel]()
-  * [Console API]()
-  * [Command Line API]()
-  * [JavaScript Console Power User]()
-  * [Chrome Devtools]()
-  * [Chrome Shortcuts]()
-  * [The Breakpoint #2]()
-  * [Google IO 2010 session]()
-  * [Google IO 2011 session]()
-  * [Google IO 2012: Developer Tools Evolution]()
-  * [Secrets of the Chrome Developer Tools]()
-  * [Wait, DevTools could do THAT?]()
+  * [Getting started](http://goo.gl/D0QyI)
+  * [Inspecting Elements and Resources](http://goo.gl/giFgt)
+  * [Debugging JavaScript](http://goo.gl/ZIruf)
+  * [Profiling and Optimizing](http://goo.gl/TlG4q)
+  * [Timeline Panel](http://goo.gl/Fwipo)
+  * [Console API](http://goo.gl/XYgok)
+  * [Command Line API](http://goo.gl/F4JPq)
+  * [JavaScript Console Power User](http://goo.gl/rdlJQ)
+  * [Chrome Devtools](http://goo.gl/BVCnH)
+  * [Chrome Shortcuts](http://goo.gl/gkN0K)
+  * [The Breakpoint #2](http://goo.gl/w1WyO)
+  * [Google IO 2010 session](http://goo.gl/q64sW)
+  * [Google IO 2011 session](http://goo.gl/00St7)
+  * [Google IO 2012: Developer Tools Evolution](http://goo.gl/Lp4UJ)
+  * [Secrets of the Chrome Developer Tools](http://goo.gl/YMnNU)
+  * [Wait, DevTools could do THAT?](http://goo.gl/QfVfa)
 
 
+=======================================================================================================
 
+![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
 > This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
 > Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
 
-> [Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet) | [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
+> [Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet)
+> [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
