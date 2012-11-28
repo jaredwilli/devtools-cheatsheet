@@ -155,8 +155,8 @@ Execute  Enter   Return
 
 Right click on console:
 
-XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
-Preserve log upon navigation
+  * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
+  * Preserve log upon navigation
 
 
 ## Search Shortcuts
@@ -173,47 +173,49 @@ Launch line number dialog when viewing a file  Ctrl + K  ⌘ + L
 
 ## Console API
 
-Command  Description
-console.assert(expression[, object, ...])  Tests that an expression is true. If not, it will write a message to the console and throw an exception.
-console.clear()  Clears the console.
-console.constructor()
-console.count([title])   Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
-console.copy()   Copies everything passed to it to the clipboard.
-console.debug(object[, object, ...])   Writes a message to the console, including a hyperlink to the line where it was called.
+Command                             | Description
+------------                        | -------------
+console.assert(expression[, object, ...]) | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
+
+console.clear() | Clears the console.
+console.constructor() |
+console.count([title]) | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
+console.copy() | Copies everything passed to it to the clipboard.
+console.debug(object[, object, ...]) | Writes a message to the console, including a hyperlink to the line where it was called.
 console.dir(object)  Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
-console.dirxml(node)   Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
-console.error(object[, object, ...])   Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
-console.exception(error-object[, object, ...])   Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
-console.group(object[, object, ...])   Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
-console.groupCollapsed(object[, object, ...])  Like console.group(), but block is initially collapsed.
-console.groupEnd()   Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
+console.dirxml(node) | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
+console.error(object[, object, ...]) | Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
+console.exception(error-object[, object, ...]) | Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
+console.group(object[, object, ...]) | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
+console.groupCollapsed(object[, object, ...]) | Like console.group(), but block is initially collapsed.
+console.groupEnd() | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
 console.hasOwnProperty()
-console.info(object[, object, ...])  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
-console.isPrototypeOf()
-console.keys()   Gives you the names of all the elements of an object.
-console.log(object[, object, ...])   Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well which are:
-String: %s - console.log('The %s is a %s', animal, cat);
-Integer: %d, %i - console.log('Number %d plus %i', 1, 2); *integer not yet supported
-Floating point number: %f - console.log('Floating points: %f', 1.5); *numeric formatting not yet supported
-Hyperlink: %o - console.log('Live laugh code at $o', 'http://anti-code.com');
-Style formatting: %c - console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
-console.memory()   An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
-console.profile([title])   Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
-console.profileEnd()   Turns off the JavaScript profiler and prints its report.
-console.profiles()   An array of profile objects that summarizes the data from profile().
-console.propertyIsEnumerable()
-console.table(data[, columns])   Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
-console.time([name])   Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed.
-console.timeEnd()  Stops a timer created by a call to console.time(name) and writes the time elapsed.
-console.timeStamp()
-console.toLocaleString()
-console.toString()
-console.trace()  Prints an interactive stack trace of JavaScript execution at the point where it is called.
-console.values()   Gives you all the values of those elements.
-console.warn(object[, object, ...])  Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
-console.valueOf()
-window.onerror   When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order.
-window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
+console.info(object[, object, ...]) |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
+console.isPrototypeOf() |
+console.keys() | Gives you the names of all the elements of an object.
+console.log(object[, object, ...]) | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well which are:
+  * String: %s - console.log('The %s is a %s', animal, cat);
+  * Integer: %d, %i - console.log('Number %d plus %i', 1, 2); *integer not yet supported
+  * Floating point number: %f - console.log('Floating points: %f', 1.5); *numeric formatting not yet supported
+  * Hyperlink: %o - console.log('Live laugh code at $o', 'http://anti-code.com');
+  * Style formatting: %c - console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
+console.memory() | An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
+console.profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
+console.profileEnd() | Turns off the JavaScript profiler and prints its report.
+console.profiles() | An array of profile objects that summarizes the data from profile().
+console.propertyIsEnumerable() |
+console.table(data[, columns]) | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
+console.time([name]) | Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed.
+console.timeEnd() | Stops a timer created by a call to console.time(name) and writes the time elapsed.
+console.timeStamp() |
+console.toLocaleString() |
+console.toString() |
+console.trace() | Prints an interactive stack trace of JavaScript execution at the point where it is called.
+console.values() | Gives you all the values of those elements.
+console.warn(object[, object, ...]) | Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
+console.valueOf() |
+window.onerror | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order.
+> window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
 
 
 ## Command Line API
