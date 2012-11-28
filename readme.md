@@ -8,6 +8,7 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 
 1. Select the Wrench menu at the top-right of your browser window, then select Tools → Developer tools.
 2. Right-click on any page element and select Inspect element.
+3. Shortcut keys:
 
              | Windows / Linux     | Mac
 ------------ | ------------------- | -------------------
@@ -39,35 +40,35 @@ Content Cell | Content Cell  | Content Cell
 
              | Windows / Linux     | Mac
 ------------ | ------------------- | -------------------
-Open Shortcut Help       ?        ?
-Next Panel      Ctrl + ]   ⌘ + ]
-Previous Panel   Ctrl + [  ⌘ + [
-Backwards in Panel History   Ctrl + Alt + ]  ⌘ + Alt + ]
-Forwards in Panel history  Ctrl + Alt + [  ⌘ + Alt + [
-Toggle Console   Esc   Esc
-Focus Search Box   Ctrl + F  ⌘ + F
-Search Across All Sources  Ctrl + Shift + F  ⌘ + ⌘ + F
-Find Previous  Ctrl + Shift + G  ⇧ + ⌘ + G
-Find Next  Ctrl + G  ⌘ + G
-Go to Source   Ctrl + O  ⇧ + O
-Go to Line   Ctrl + G  ⌘ + G
-Restore Default text size  Ctrl + 0  ⇧ + 0
-Zoom In  Ctrl +  ⇧ +
-Zoom Out   Ctrl -  ⇧ -
+Open Shortcut Help | ? | ?
+Next Panel | Ctrl + ] | ⌘ + ]
+Previous Panel | Ctrl + [ | ⌘ + [
+Backwards in Panel History | Ctrl + Alt + ] | ⌘ + Alt + ]
+Forwards in Panel history | Ctrl + Alt + [ | ⌘ + Alt + [
+Toggle Console | Esc | Esc
+Focus Search Box | Ctrl + F | ⌘ + F
+Search Across All Sources | Ctrl + Shift + F | ⌘ + ⌘ + F
+Find Previous | Ctrl + Shift + G | ⇧ + ⌘ + G
+Find Next | Ctrl + G | ⌘ + G
+Go to Source | Ctrl + O | ⇧ + O
+Go to Line | Ctrl + G | ⌘ + G
+Restore Default text size | Ctrl + 0 | ⇧ + 0
+Zoom In | Ctrl + | ⇧ +
+Zoom Out | Ctrl - | ⇧ -
 
 
 ## Elements Panel
 
              | Windows / Linux     | Mac
 ------------ | ------------------- | -------------------
-Navigate   Up, Down  Up, Down
-Expand / Collapse Node   Right, Left   Right, Left
-Expand Node  Double-Click on tag   Double-Click on tag
-Edit Attribute   Return or Double-Click on attribute   Enter or Double-Click on attribute
-Right Clicking an Element you can:
+Navigate | Up, Down | Up, Down
+Expand / Collapse Node | Right, Left | Right, Left
+Expand Node | Double-Click on tag | Double-Click on tag
+Edit Attribute | Return or Double-Click on attribute | Enter or Double-Click on attribute
 
-Force Element Psuedo States: (:active, :hover, :focus, :visited)
-Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification, Node Removal)
+**Right Clicking an Element you can:**
+  * Force Element Psuedo States: (:active, :hover, :focus, :visited)
+  * Set breakpoints on the Elements: (Subtree Modifications, Attribute Modification, Node Removal)
 
 
 ## Styles Sidebar
