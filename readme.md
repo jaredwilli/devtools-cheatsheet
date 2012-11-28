@@ -214,11 +214,11 @@ console.valueOf() |
 window.onerror | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
 
 String substitution patterns available when using console.log() are:
-  * String: %s - console.log('The %s is a %s', animal, cat);
-  * Integer: %d, %i - console.log('Number %d plus %i', 1, 2);
+  * String: %s -                console.log('The %s is a %s', animal, cat);
+  * Integer: %d, %i -           console.log('Number %d plus %i', 1, 2);
   * Floating point number: %f - console.log('Floating points: %f', 1.5);
-  * Hyperlink: %o - console.log('Live laugh code at $o', 'http://anti-code.com');
-  * Style formatting: %c - console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
+  * Hyperlink: %o -             console.log('Live laugh code at $o', 'http://anti-code.com');
+  * Style formatting: %c -      console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
 
 
 ## Command Line API
