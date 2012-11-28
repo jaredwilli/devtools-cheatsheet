@@ -10,11 +10,11 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 2. Right-click on any page element and select Inspect element.
 3. Shortcut keys:
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Open Developer Tools | Ctrl + Shift + I | ⌥ + ⌘ + I
-Open Developer Tools and bring focus to the Console | Ctrl + Shift + J | ⌥ + ⌘ + J
-Toggle Inspect Element mode | Ctrl + Shift + C | ⌥ + ⌘ + C
+                                                    | Windows / Linux     | Mac
+------------                                        | ------------------- | -------------------
+Open Developer Tools                                | Ctrl + Shift + I    | ⌥ + ⌘ + I
+Open Developer Tools and bring focus to the Console | Ctrl + Shift + J    | ⌥ + ⌘ + J
+Toggle Inspect Element mode                         | Ctrl + Shift + C    | ⌥ + ⌘ + C
 
 View the list of shortcuts: type ? when the Developer Tools window is open.
 
@@ -22,33 +22,33 @@ View the list of shortcuts: type ? when the Developer Tools window is open.
 
 ## Global Shortcuts
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Open Shortcut Help | ? | ?
-Next Panel | Ctrl + ] | ⌘ + ]
-Previous Panel | Ctrl + [ | ⌘ + [
-Backwards in Panel History | Ctrl + Alt + ] | ⌘ + Alt + ]
-Forwards in Panel history | Ctrl + Alt + [ | ⌘ + Alt + [
-Toggle Console | Esc | Esc
-Focus Search Box | Ctrl + F | ⌘ + F
-Search Across All Sources | Ctrl + Shift + F | ⌘ + ⌘ + F
-Find Previous | Ctrl + Shift + G | ⇧ + ⌘ + G
-Find Next | Ctrl + G | ⌘ + G
-Go to Source | Ctrl + O | ⇧ + O
-Go to Line | Ctrl + G | ⌘ + G
-Restore Default text size | Ctrl + 0 | ⇧ + 0
-Zoom In | Ctrl + | ⇧ +
-Zoom Out | Ctrl - | ⇧ -
+                           | Windows / Linux  | Mac
+------------               | ---------------- | -------------------
+Open Shortcut Help         | ?                | ?
+Next Panel                 | Ctrl + ]         | ⌘ + ]
+Previous Panel             | Ctrl + [         | ⌘ + [
+Backwards in Panel History | Ctrl + Alt + ]   | ⌘ + Alt + ]
+Forwards in Panel history  | Ctrl + Alt + [   | ⌘ + Alt + [
+Toggle Console             | Esc              | Esc
+Focus Search Box           | Ctrl + F         | ⌘ + F
+Search Across All Sources  | Ctrl + Shift + F | ⌘ + ⌘ + F
+Find Previous              | Ctrl + Shift + G | ⇧ + ⌘ + G
+Find Next                  | Ctrl + G         | ⌘ + G
+Go to Source               | Ctrl + O         | ⇧ + O
+Go to Line                 | Ctrl + G         | ⌘ + G
+Restore Default text size  | Ctrl + 0         | ⇧ + 0
+Zoom In                    | Ctrl +           | ⇧ +
+Zoom Out                   | Ctrl -           | ⇧ -
 
 
 ## Elements Panel
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Navigate | Up, Down | Up, Down
-Expand / Collapse Node | Right, Left | Right, Left
-Expand Node | Double-Click on tag | Double-Click on tag
-Edit Attribute | Return or Double-Click on attribute | Enter or Double-Click on attribute
+                        | Windows / Linux                     | Mac
+--------------------    | -------------------                 | -------------------
+Navigate                | Up, Down                            | Up, Down
+Expand / Collapse Node  | Right, Left                         | Right, Left
+Expand Node             | Double-Click on tag                 | Double-Click on tag
+Edit Attribute          | Return or Double-Click on attribute | Enter or Double-Click on attribute
 
 **Right Clicking an Element you can:**
   * Force Element Psuedo States: (:active, :hover, :focus, :visited)
@@ -57,16 +57,16 @@ Edit Attribute | Return or Double-Click on attribute | Enter or Double-Click on 
 
 ## Styles Sidebar
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Edit Rule  Double-Click  Double-Click
-Insert New Property  Double-Click on whitespace  Double-Click on whitespace
-Edit Next / Previous Property  Tab, Shift-Tab  Tab, ⇧ + Tab
-Increment / Decrement Value  Up, Down  Up, Down
-Increment / Decrement Value by 10  Shift + Up, Shift + Down  ⇧ + Up, ⇧ + Down
-Increment / Decrement Value by 10  PgUp, PgDown  PgUp, PgDown
-Increment / Decrement Value by 100   Shift + PgUp, Shift + PgDown  ⇧ + PgUp, ⇧ + PgDown
-Increment / Decrement Value by 0.1   Alt + Up, Alt + Down  ⌥ + Up, ⌥ + Down
+                                   | Windows / Linux              | Mac
+------------------                 | -------------------          | -------------------
+Edit Rule                          | Double-Click                 | Double-Click
+Insert New Property                | Double-Click on whitespace   | Double-Click on whitespace
+Edit Next / Previous Property      | Tab, Shift-Tab               | Tab, ⇧ + Tab
+Increment / Decrement Value        | Up, Down                     | Up, Down
+Increment / Decrement Value by 10  | Shift + Up, Shift + Down     | ⇧ + Up, ⇧ + Down
+Increment / Decrement Value by 10  | PgUp, PgDown                 | PgUp, PgDown
+Increment / Decrement Value by 100 | Shift + PgUp, Shift + PgDown | ⇧ + PgUp, ⇧ + PgDown
+Increment / Decrement Value by 0.1 | Alt + Up, Alt + Down         | ⌥ + Up, ⌥ + Down
 
 ![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
 Emulate an element's pseudo state (:active, :hover, :focus, :visited)
@@ -79,32 +79,39 @@ Add new style selectors
 
 Understanding the information displayed within each column.
 
-  1. Size: Total size of resource
-    * Gzipped size of resource
-    * Total duration to get response
+![Size column details](http://anti-code.com/devtools-cheatsheet/img/network-sizeCol.png "Size column details")
+                  * **Size**: Total size of resource
+  * **Content**: Gzipped size of resource
 
-  2. Latency: time taken to get first byte
-    * File that initialized the resource load
-    * How the resource load was scheduled
+![Time column details](http://anti-code.com/devtools-cheatsheet/img/network-timeCol.png "Time column details")
+  * **Time**: total duration to get response
+  * **Latency**: time taken to get first byte
 
-  3. Select the Timeline heading to change sort modes for the network.
-    * Transparent: Latency load time
-    * Solid: Total load time
+![Initiator column details](http://anti-code.com/devtools-cheatsheet/img/network-initiatorCol.png "Initiator column details")
+  * File that initialized the resource load
+  * How the resource load was scheduled
+
+![Sorting Network Timeline Resources](http://anti-code.com/devtools-cheatsheet/img/networkTimelineSorting.png "Sorting Network Timeline Resources")
+Select the Timeline heading to change sort modes for the network.
+
+![Resource Waterfall](http://anti-code.com/devtools-cheatsheet/img/network-timlineWaterfall.png "Resource Waterfall")
+  * **Transparent**: Latency load time
+  * **Solid**: Total load time
 
 
 ## Sources Panel
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Continue   F8, Ctrl + /  F8, ⌘ + /
-Step Over  F10, Ctrl + '   F10, ⌘ + '
-Step Into  F11, Ctrl + ;   F11, ⌘ + ;
-Step Out   Shift + F11, Ctrl + Shift + ;   ⇧ + F11, ⇧ + ⌘ + ;
-Select Next Call Frame   Ctrl - .  ⌃ + .
-Select Previous Call Frame   Ctrl + ,  ⌃ + ,
-Evaluate Selection   Ctrl + Shift + E  ⇧ + ⌘ + E
-Toggle Breakpoint Condition  Click on line number  Click on line number
-Edit Breakpoint Condition  Right-Click on line number  Right-Click on line number
+                            | Windows / Linux               | Mac
+--------------------------- | -------------------           | -------------------
+Continue                    | F8, Ctrl + /                  | F8, ⌘ + /
+Step Over                   | F10, Ctrl + '                 | F10, ⌘ + '
+Step Into                   | F11, Ctrl + ;                 | F11, ⌘ + ;
+Step Out                    | Shift + F11, Ctrl + Shift + ; | ⇧ + F11, ⇧ + ⌘ + ;
+Select Next Call Frame      | Ctrl - .                      | ⌃ + .
+Select Previous Call Frame  | Ctrl + ,                      | ⌃ + ,
+Evaluate Selection          | Ctrl + Shift + E              | ⇧ + ⌘ + E
+Toggle Breakpoint Condition | Click on line number          | Click on line number
+Edit Breakpoint Condition   | Right-Click on line number    | Right-Click on line number
 
 
 ![Don't Pause on Exceptions](http://anti-code.com/devtools-cheatsheet/img/pauseOnExceptionsButton.png "Don't Pause on Exceptions")
@@ -121,9 +128,9 @@ Pause on Uncaught Exceptions (usually the one you want)
 
 ## Timeline Panel
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Start / Stop recording | Ctrl + E | ⌃ + E
+                       | Windows / Linux     | Mac
+---------------------- | ------------------- | -------------------
+Start / Stop recording | Ctrl + E            | ⌃ + E
 
 
 ## Profiles Panel
@@ -133,78 +140,78 @@ Profiling types:
   * **CPU profiler**: shows where execution time is spent in your page's JavaScript functions
   * **Heap profiler**: shows memory distribution by your page's JavaScript objects and related DOM nodes
 
-
+-------------------------------------
 ## Console
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Next Suggestion | Tab | Tab
-Previous Suggestion | Shift + Tab | ⇧ + Tab
-Accept Suggestion | Right | Right
-Previous Command / Line | Up | Up
-Next Command / Line | Down | Down
-Previous Command | Ctrl + P | ⌃ + P
-Next Command | Ctrl + N  ⌃ + N
-Clear History | Ctrl + L  ⌘ + K, ⌃ + L
-Multiline entry | Shift + Enter | Ctrl + Return
-Execute | Enter | Return
+                    | Windows / Linux  | Mac
+------------        | ---------------- | -------------------
+Next Suggestion     | Tab              | Tab
+Previous Suggestion | Shift + Tab      | ⇧ + Tab
+Accept Suggestion   | Right            | Right
+Previous Command / Line                | Up | Up
+Next Command / Line | Down             | Down
+Previous Command    | Ctrl + P         | ⌃ + P
+Next Command        | Ctrl + N         | ⌃ + N
+Clear History       | Ctrl + L         | ⌘ + K, ⌃ + L
+Multiline entry     | Shift + Enter    | Ctrl + Return
+Execute             | Enter            | Return
 
 **Right click on console:**
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
   * Preserve log upon navigation
 
-
+-------------------------------------
 ## Search Shortcuts
 
 Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
 
-             | Windows / Linux     | Mac
------------- | ------------------- | -------------------
-Search scripts, stylesheets and snippets by filename | Ctrl + O | ⌘ + O
-Text search within current file | Ctrl + F | ⌘ + F
-Text search across all files | Ctrl + Shift + F | ⌘ + Opt + F
+                                                                      | Windows / Linux     | Mac
+------------                                                         | ------------------- | -------------------
+Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
+Text search within current file                                       | Ctrl + F            | ⌘ + F
+Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Opt + F
 Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O | ⌘ + ⌘ + O
-Launch line number dialog when viewing a file | Ctrl + K | ⌘ + L
+Launch line number dialog when viewing a file                         | Ctrl + K | ⌘ + L
 
-
+-------------------------------------
 ## Console API
 
-Command      | Description
------------- | -------------
-console.assert(expression[, object, ...]) | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
-console.clear() | Clears the console.
-console.constructor() |
-console.count([title]) | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
-console.copy() | Copies everything passed to it to the clipboard.
-console.debug(object[, object, ...]) | Writes a message to the console, including a hyperlink to the line where it was called.
-console.dir(object) | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
-console.dirxml(node) | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
-console.error(object[, object, ...]) | Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
+Command                                        | Description
+------------                                   | -------------
+console.assert(expression[, object, ...])      | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
+console.clear()                                | Clears the console.
+console.constructor()                          |
+console.count([title])                         | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
+console.copy()                                 | Copies everything passed to it to the clipboard.
+console.debug(object[, object, ...])           | Writes a message to the console, including a hyperlink to the line where it was called.
+console.dir(object)                            | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
+console.dirxml(node)                           | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
+console.error(object[, object, ...])           | Writes a message to the console with the visual "error" icon and color coding and a hyperlink to the line where it was called.
 console.exception(error-object[, object, ...]) | Prints an error message together with an interactive stack trace of JavaScript execution at the point where the exception occurred.
-console.group(object[, object, ...]) | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
-console.groupCollapsed(object[, object, ...]) | Like console.group(), but block is initially collapsed.
+console.group(object[, object, ...])           | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
+console.groupCollapsed(object[, object, ...])  | Like console.group(), but block is initially collapsed.
 console.groupEnd() | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
-console.hasOwnProperty() |
-console.info(object[, object, ...]) |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
-console.isPrototypeOf() |
-console.keys() | Gives you the names of all the elements of an object.
-console.log(object[, object, ...]) | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well (see below).
-console.memory() | An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
-console.profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
-console.profileEnd() | Turns off the JavaScript profiler and prints its report.
-console.profiles() | An array of profile objects that summarizes the data from profile().
-console.propertyIsEnumerable() |
-console.table(data[, columns]) | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
-console.time([name]) | Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed.
-console.timeEnd() | Stops a timer created by a call to console.time(name) and writes the time elapsed.
-console.timeStamp() |
-console.toLocaleString() |
-console.toString() |
-console.trace() | Prints an interactive stack trace of JavaScript execution at the point where it is called.
-console.values() | Gives you all the values of those elements.
-console.warn(object[, object, ...]) | Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
-console.valueOf() |
-window.onerror | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
+console.hasOwnProperty()                       |
+console.info(object[, object, ...])            |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
+console.isPrototypeOf()                        |
+console.keys()                                 | Gives you the names of all the elements of an object.
+console.log(object[, object, ...])             | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well (see below).
+console.memory()                               | An object that returns: jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize
+console.profile([title])                       | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
+console.profileEnd()                           | Turns off the JavaScript profiler and prints its report.
+console.profiles()                             | An array of profile objects that summarizes the data from profile().
+console.propertyIsEnumerable()                 |
+console.table(data[, columns])                 | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
+console.time([name])                           | Creates a new timer under the given name. Call console.timeEnd(name) with the same name to stop the timer and print the time elapsed.
+console.timeEnd()                              | Stops a timer created by a call to console.time(name) and writes the time elapsed.
+console.timeStamp()                            |
+console.toLocaleString()                       |
+console.toString()                             |
+console.trace()                                | Prints an interactive stack trace of JavaScript execution at the point where it is called.
+console.values()                               | Gives you all the values of those elements.
+console.warn(object[, object, ...])            | Writes a message to the console with the visual "warning" icon and color coding and a hyperlink to the line where it was called.
+console.valueOf()                              |
+window.onerror                                 | When exceptions are thrown in the window context and is not caught by any try/catch block, the function will be invoked with the exception's message, the URL of the file where the exception was thrown and the line number in that file passed as three arguments in that order. window.onerror = function(msg, url, line) { console.log('message: ' + msg, 'url: ' + url, 'line: ' + line); };
 
 String substitution patterns available when using console.log() are:
   * String: %s -                console.log('The %s is a %s', animal, cat);
@@ -213,7 +220,7 @@ String substitution patterns available when using console.log() are:
   * Hyperlink: %o -             console.log('Live laugh code at $o', 'http://anti-code.com');
   * Style formatting: %c -      console.log('%c This is white text on a black background', 'color:#fff;background:#000;');
 
-
+-------------------------------------
 ## Command Line API
 
 Command      | Description
@@ -238,7 +245,7 @@ performance.navigation |
 profile([title]) | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
 profileEnd() | Turns off the JavaScript profiler and prints its report.
 
-
+-------------------------------------
 ## Flags
 
 Feature      | Description
@@ -252,7 +259,7 @@ Feature      | Description
 
  - For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
 
-
+-------------------------------------
 ## DevTools Themes
   * MNML
   * ThemeMonokai
@@ -273,21 +280,21 @@ Override the classes/IDs of Devtools for your theme via _chrome-devtools:devtool
 
 Read about how to [customize your Devtools](http://goo.gl/3hOAW).
 
-
+-------------------------------------
 ## Opening Google Chrome Features
 
-             | Windows / Linux   | Mac
------------- | ----------------- | -------------------
-Open a new window in incognito mode | Ctrl + Shift + N | ⌘ + Shift + N
-Toggle bookmarks bar on and off | Ctrl + B | Shift + ⌘ + B
-View the History page | Ctrl + H | ⌘ + Y
-View the Downloads page | Ctrl + J | Shift + ⌘ + J
-View the Task manager | Shift + ESC | Shift + ESC
-Previous page in a tabs browsing history | Backspace, Alt + ← | Backspace, Alt + ←
-Places a '?' in the address bar. Type a search term after the '?' to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
+                                          | Windows / Linux    | Mac
+----------------------------------------- | -----------------  | -------------------
+Open a new window in incognito mode       | Ctrl + Shift + N   | ⌘ + Shift + N
+Toggle bookmarks bar on and off           | Ctrl + B           | Shift + ⌘ + B
+View the History page                     | Ctrl + H           | ⌘ + Y
+View the Downloads page                   | Ctrl + J           | Shift + ⌘ + J
+View the Task manager                     | Shift + ESC        | Shift + ESC
+Previous page in a tabs browsing history  | Backspace, Alt + ← | Backspace, Alt + ←
+Type a search term after the '?' to perform a search using your default search engine | Ctrl + K, Ctrl + E | ⌘ + K, ⌘ + E
 Highlight content in the web address area | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
-
+-------------------------------------
 ## about:pages
 
 Feature      | Description
