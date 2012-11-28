@@ -191,7 +191,7 @@ console.exception(error-object[, object, ...]) | Prints an error message togethe
 console.group(object[, object, ...]) | Writes a message to the console and opens a nested block to indent all future messages sent to the console. Call console.groupEnd() to close the block.
 console.groupCollapsed(object[, object, ...]) | Like console.group(), but block is initially collapsed.
 console.groupEnd() | Closes the most recently opened block created by a call to console.group() or console.groupCollapsed().
-console.hasOwnProperty()
+console.hasOwnProperty() |
 console.info(object[, object, ...]) |  Writes a message to the console with the visual "info" icon and color coding and a hyperlink to the line where it was called.
 console.isPrototypeOf() |
 console.keys() | Gives you the names of all the elements of an object.
