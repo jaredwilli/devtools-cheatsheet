@@ -21,23 +21,23 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
 ----------------------------------------------
 ## Global Shortcuts
 
-|                            | Windows / Linux  | Mac                 |
-| -------------------------- | ---------------- | ------------------- |
-| Open Shortcut Help         | ?                | ?                   |
-| Next Panel                 | Ctrl + ]         | ⌘ + ]               |
-| Previous Panel             | Ctrl + [         | ⌘ + [               |
-| Backwards in Panel History | Ctrl + Alt + ]   | ⌘ + Alt + ]         |
-| Forwards in Panel history  | Ctrl + Alt + [   | ⌘ + Alt + [         |
-| Toggle Console             | Esc              | Esc                 |
-| Focus Search Box           | Ctrl + F         | ⌘ + F               |
-| Search Across All Sources  | Ctrl + Shift + F | ⌘ + ⌘ + F           |
-| Find Previous              | Ctrl + Shift + G | ⇧ + ⌘ + G           |
-| Find Next                  | Ctrl + G         | ⌘ + G               |
-| Go to Source               | Ctrl + O         | ⇧ + O               |
-| Go to Line                 | Ctrl + G         | ⌘ + G               |
-| Restore Default text size  | Ctrl + 0         | ⇧ + 0               |
-| Zoom In                    | Ctrl +           | ⇧ +                 |
-| Zoom Out                   | Ctrl -           | ⇧ -                 |
+                           | Windows / Linux  | Mac
+-------------------------- | ---------------- | -------------------
+Open Shortcut Help         | ?                | ?
+Next Panel                 | Ctrl + ]         | ⌘ + ]
+Previous Panel             | Ctrl + [         | ⌘ + [
+Backwards in Panel History | Ctrl + Alt + ]   | ⌘ + Alt + ]
+Forwards in Panel history  | Ctrl + Alt + [   | ⌘ + Alt + [
+Toggle Console             | Esc              | Esc
+Focus Search Box           | Ctrl + F         | ⌘ + F
+Search Across All Sources  | Ctrl + Shift + F | ⌘ + ⌘ + F
+Find Previous              | Ctrl + Shift + G | ⇧ + ⌘ + G
+Find Next                  | Ctrl + G         | ⌘ + G
+Go to Source               | Ctrl + O         | ⇧ + O
+Go to Line                 | Ctrl + G         | ⌘ + G
+Restore Default text size  | Ctrl + 0         | ⇧ + 0
+Zoom In                    | Ctrl +           | ⇧ +
+Zoom Out                   | Ctrl -           | ⇧ -
 
 
 ----------------------------------------------
