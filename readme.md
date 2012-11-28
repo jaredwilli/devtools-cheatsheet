@@ -179,7 +179,6 @@ Launch line number dialog when viewing a file  Ctrl + K  ⌘ + L
 Command                             | Description
 ------------                        | -------------
 console.assert(expression[, object, ...]) | Tests that an expression is true. If not, it will write a message to the console and throw an exception.
-
 console.clear() | Clears the console.
 console.constructor() |
 console.count([title]) | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
