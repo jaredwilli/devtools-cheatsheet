@@ -207,10 +207,10 @@ console.info(object[, object, ...])            |  Writes a message to the consol
 console.isPrototypeOf()                        |
 console.keys()                                 | Gives you the names of all the elements of an object.
 console.log(object[, object, ...])             | Writes a message to the console. You may pass as many arguments as you'd like, and they will be joined together in a space-delimited line. You can use printf-like string substitution patterns as well (see below).
-console.memory()                               | An object that returns: `jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize` objects containing information for the current page memory use.
+console.memory                                 | An object that returns: `jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize` objects containing information for the current page memory use.
 console.profile([title])                       | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
 console.profileEnd()                           | Turns off the JavaScript profiler and prints its report.
-console.profiles()                             | An array of profile objects that summarizes the data from `profile()`.
+console.profiles                               | An array of profile objects that summarizes the data from `profile()`.
 console.propertyIsEnumerable()                 |
 console.table(data[, columns])                 | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
 console.time([name])                           | Creates a new timer under the given name. Call `console.timeEnd(name)` with the same name to stop the timer and print the time elapsed.
