@@ -401,9 +401,11 @@ you can type them into the address bar if you need them.
   * [Google IO 2012: Developer Tools Evolution](http://goo.gl/Lp4UJ)
   * [Secrets of the Chrome Developer Tools](http://goo.gl/YMnNU)
   * [Wait, DevTools could do THAT?](http://goo.gl/QfVfa)
+  * [Chrome Dev Tools: Networking and the Console](http://net.tutsplus.com/tutorials/chrome-dev-tools-networking-and-the-console/)
+  * [Extending Chrome DevTools for fun and profit](http://goo.gl/o23Cp)
 
 
-=======================================================================================================
+----------------------------------------------
 
 ![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png "Creative Commons License")
 
