@@ -30,7 +30,7 @@ Backwards in Panel History | Ctrl + Alt + ]   | ⌘ + Alt + ]
 Forwards in Panel history  | Ctrl + Alt + [   | ⌘ + Alt + [
 Toggle Console             | Esc              | Esc
 Focus Search Box           | Ctrl + F         | ⌘ + F
-Search Across All Sources  | Ctrl + Shift + F | ⌘ + ⌘ + F
+Search Across All Sources  | Ctrl + Shift + F | ⌘ + Alt + F
 Find Previous              | Ctrl + Shift + G | ⇧ + ⌘ + G
 Find Next                  | Ctrl + G         | ⌘ + G
 Go to Source               | Ctrl + O         | ⇧ + O
