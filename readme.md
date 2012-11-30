@@ -62,7 +62,7 @@ Edit Attribute          | Return or Double-Click on attribute | Enter or Double-
 ---------------------------------- | ---------------------------- | ----------------------------
 Edit Rule                          | Double-Click                 | Double-Click
 Insert New Property                | Double-Click on whitespace   | Double-Click on whitespace
-Edit Next / Previous Property      | Tab, Shift-Tab               | Tab, ⇧ + Tab
+Edit Next / Previous Property      | Tab, Shift + Tab             | Tab, ⇧ + Tab
 Increment / Decrement Value        | Up, Down                     | Up, Down
 Increment / Decrement Value by 10  | Shift + Up, Shift + Down     | ⇧ + Up, ⇧ + Down
 Increment / Decrement Value by 10  | PgUp, PgDown                 | PgUp, PgDown
