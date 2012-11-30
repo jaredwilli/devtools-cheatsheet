@@ -7,7 +7,6 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 
 1. Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
 2. Right-click on any page element and select **Inspect element**.
-
 3. Shortcut keys:
                                                     | Windows / Linux   | Mac
 --------------------------------------------------- | ----------------- | -------------------
