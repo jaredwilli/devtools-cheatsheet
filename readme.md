@@ -9,8 +9,8 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 2. Right-click on any page element and select **Inspect element**.
 3. Shortcut keys:
 
-                           | Windows / Linux  | Mac
--------------------------- | ---------------- | -------------------
+                                                    | Windows / Linux  | Mac
+--------------------------------------------------- | ---------------- | -------------------
 Open Developer Tools                                | Ctrl + Shift + I  | ⌥ + ⌘ + I
 Open Developer Tools and bring focus to the Console | Ctrl + Shift + J  | ⌥ + ⌘ + J
 Toggle Inspect Element mode                         | Ctrl + Shift + C  | ⌥ + ⌘ + C
