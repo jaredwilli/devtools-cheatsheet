@@ -179,7 +179,7 @@ Find or navigate to specific files, methods or line numbers in an web app within
 --------------------------------------------------------------------- | ------------------- | --------------------
 Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
 Text search within current file                                       | Ctrl + F            | ⌘ + F
-Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Opt + F
+Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Alt + F
 Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + ⌘ + O
 Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
 
