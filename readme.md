@@ -18,14 +18,6 @@ Toggle Inspect Element mode                         | Ctrl + Shift + C  | ⌥ + 
 View the list of shortcuts: type `?` when the Developer Tools window is open.
 
 
-    <table>
-      <tbody><tr><th></th><th> Windows / Linux </th><th> Mac </th></tr>
-      <tr><td> Navigate                             </td><td> Up, Down </td><td> Up, Down </td></tr>
-      <tr><td> Expand / Collapse Node               </td><td> Right, Left </td><td> Right, Left </td></tr>
-      <tr><td> Expand Node                          </td><td> Double-Click on tag </td><td> Double-Click on tag </td></tr>
-      <tr><td> Edit Attribute                       </td><td> Return or Double-Click on attribute </td><td> Enter or Double-Click on attribute </td></tr>
-    </tbody></table>
-
 ----------------------------------------------
 ## Global Shortcuts
 
