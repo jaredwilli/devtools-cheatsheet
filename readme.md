@@ -194,7 +194,6 @@ console.assert(expression[, object, ...])      | Tests that an expression is tru
 console.clear()                                | Clears the console.
 console.constructor()                          |
 console.count([title])                         | Writes the number of times that the line of code where count was called was executed. The optional argument title will print a message in addition to the number of the count.
-console.copy()                                 | Copies everything passed to it to the clipboard.
 console.debug(object[, object, ...])           | Writes a message to the console, including a hyperlink to the line where it was called.
 console.dir(object)                            | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
 console.dirxml(node)                           | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
@@ -247,6 +246,7 @@ $n(index)                        | Access to an array of last 5 inspected elemen
 dir(object)                      | Prints an interactive listing of all properties of the object. This looks identical to the view that you would see in the DOM tab.
 dirxml(node)                     | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
 clear()                          | Clears the console.
+copy()                           | Copies everything passed to it to the clipboard.
 instspect(object[, tabName])     | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
 keys(object)                     | Returns an array containing the names of all properties of the object.
 values(object)                   | Returns an array containing the values of all properties of the object.
