@@ -180,8 +180,9 @@ Find or navigate to specific files, methods or line numbers in an web app within
 Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
 Text search within current file                                       | Ctrl + F            | ⌘ + F
 Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Alt + F
-Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + ⌘ + O
+Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + Alt + O
 Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
+Evaluate code selected in scripts in the console                      | Ctrl + Shift + E    | ⌘ + Shift + E
 
 
 ----------------------------------------------
