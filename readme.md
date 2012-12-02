@@ -412,7 +412,7 @@ you can type them into the address bar if you need them.
 
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
 
-Cheatsheet by [Jared Williams](http://twitter.com/jaredwilli). Notify me if you find something that is incorrect.
+Cheatsheet by [Jared Williams](http://anti-code.com). Notify me if you find something that is incorrect.
 [Contribute to Cheatsheet](https://github.com/jaredwilli/devtools-cheatsheet)
 
 [Contribute to Devtools](https://developers.google.com/chrome-developer-tools/docs/contributing)
