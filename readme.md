@@ -5,15 +5,15 @@
 
 To access the developer tools, on any web page or app in Google Chrome you can use one of these options:
 
-1. Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
-2. Right-click on any page element and select **Inspect element**.
-3. Shortcut keys:
+  * Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
+  * Right-click on any page element and select **Inspect element**.
+  * Shortcut keys:
 
-                                                    | Windows / Linux   | Mac
---------------------------------------------------- | ----------------- | -------------------
-Open Developer Tools                                | Ctrl + Shift + I  | ⌥ + ⌘ + I
-Open Developer Tools and bring focus to the Console | Ctrl + Shift + J  | ⌥ + ⌘ + J
-Toggle Inspect Element mode                         | Ctrl + Shift + C  | ⌥ + ⌘ + C
+                                                    | Windows / Linux        | Mac
+--------------------------------------------------- | ---------------------- | -------------------
+Open Developer Tools                                | F12, Ctrl + Shift + I  | ⌥ + ⌘ + I
+Open Developer Tools and bring focus to the Console | Ctrl + Shift + J       | ⌥ + ⌘ + J
+Toggle Inspect Element mode                         | Ctrl + Shift + C       | ⌥ + ⌘ + C
 
 View the list of shortcuts: type `?` when the Developer Tools window is open.
 
