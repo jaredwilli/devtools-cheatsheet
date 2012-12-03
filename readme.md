@@ -9,8 +9,8 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 2. Right-click on any page element and select **Inspect element**.
 3. Shortcut keys:
 
-                                                    | Windows / Linux  | Mac
---------------------------------------------------- | ---------------- | -------------------
+                                                    | Windows / Linux   | Mac
+--------------------------------------------------- | ----------------- | -------------------
 Open Developer Tools                                | Ctrl + Shift + I  | ⌥ + ⌘ + I
 Open Developer Tools and bring focus to the Console | Ctrl + Shift + J  | ⌥ + ⌘ + J
 Toggle Inspect Element mode                         | Ctrl + Shift + C  | ⌥ + ⌘ + C
@@ -21,23 +21,23 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
 ----------------------------------------------
 ## Global Shortcuts
 
-                           | Windows / Linux  | Mac
--------------------------- | ---------------- | -------------------
-Open Shortcut Help         | ?                | ?
-Next Panel                 | Ctrl + ]         | ⌘ + ]
-Previous Panel             | Ctrl + [         | ⌘ + [
-Backwards in Panel History | Ctrl + Alt + ]   | ⌘ + Alt + ]
-Forwards in Panel history  | Ctrl + Alt + [   | ⌘ + Alt + [
-Toggle Console             | Esc              | Esc
-Focus Search Box           | Ctrl + F         | ⌘ + F
-Search Across All Sources  | Ctrl + Shift + F | ⌘ + Alt + F
-Find Previous              | Ctrl + Shift + G | ⇧ + ⌘ + G
-Find Next                  | Ctrl + G         | ⌘ + G
-Go to Source               | Ctrl + O         | ⇧ + O
-Go to Line                 | Ctrl + G         | ⌘ + G
-Restore Default text size  | Ctrl + 0         | ⇧ + 0
-Zoom In                    | Ctrl +           | ⇧ +
-Zoom Out                   | Ctrl -           | ⇧ -
+                               | Windows / Linux  | Mac
+------------------------------ | ---------------- | -------------------
+Open Shortcut Help             | ?                | ?
+Next Panel                     | Ctrl + ]         | ⌘ + ]
+Previous Panel                 | Ctrl + [         | ⌘ + [
+Backwards in Panel History     | Ctrl + Alt + ]   | ⌘ + Alt + ]
+Forwards in Panel history      | Ctrl + Alt + [   | ⌘ + Alt + [
+Toggle Console                 | Esc              | Esc
+Focus Search Box               | Ctrl + F         | ⌘ + F
+Text search across all sources | Ctrl + Shift + F | ⌘ + Alt + F
+Find Previous                  | Ctrl + Shift + G | ⇧ + ⌘ + G
+Find Next                      | Ctrl + G         | ⌘ + G
+Go to Source                   | Ctrl + O         | ⇧ + O
+Go to Line                     | Ctrl + G         | ⌘ + G
+Restore Default text size      | Ctrl + 0         | ⇧ + 0
+Zoom In                        | Ctrl +           | ⇧ +
+Zoom Out                       | Ctrl -           | ⇧ -
 
 
 ----------------------------------------------
@@ -149,6 +149,21 @@ Profiling types:
 
 
 ----------------------------------------------
+## Search Shortcuts
+
+Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
+
+                                                                      | Windows / Linux     | Mac
+--------------------------------------------------------------------- | ------------------- | --------------------
+Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
+Text search within current file                                       | Ctrl + F            | ⌘ + F
+Text search across all sources                                        | Ctrl + Shift + F    | ⌘ + Alt + F
+Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + Shift + O
+Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
+Evaluate code selected in scripts in the console                      | Ctrl + Shift + E    | ⌘ + Shift + E
+
+
+----------------------------------------------
 ## [Console](http://goo.gl/cu0vw)
 
                         | Windows / Linux  | Mac
@@ -168,21 +183,6 @@ Execute                 | Enter            | Return
 
   * XMLHTTPRequest logging: Select to turn on so you can view the XHR log.
   * Preserve log upon navigation
-
-
-----------------------------------------------
-## Search Shortcuts
-
-Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
-
-                                                                      | Windows / Linux     | Mac
---------------------------------------------------------------------- | ------------------- | --------------------
-Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
-Text search within current file                                       | Ctrl + F            | ⌘ + F
-Text search across all files                                          | Ctrl + Shift + F    | ⌘ + Alt + F
-Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + Shift + O
-Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
-Evaluate code selected in scripts in the console                      | Ctrl + Shift + E    | ⌘ + Shift + E
 
 
 ----------------------------------------------
