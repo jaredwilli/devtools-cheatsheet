@@ -316,6 +316,7 @@ Previous page in a tabs browsing history                                   | Bac
 Focus the address bar with a '?' and type a search term after it to search | Ctrl + K, Ctrl + E    | ⌘ + K, ⌘ + E
 Highlight content in the web address area                                  | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
+For a list of all Chrome shortcuts for Windows, Mac, and Linux check out [http://goo.gl/PsTNm](http://goo.gl/PsTNm).
 
 ----------------------------------------------
 ## about:pages
