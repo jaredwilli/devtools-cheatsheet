@@ -140,6 +140,8 @@ Pause on Uncaught Exceptions (usually the one you want)
                        | Windows / Linux  | Mac
 ---------------------- | ---------------- | -------------------
 Start / Stop recording | Ctrl + E         | ⌃ + E
+Save timeline data     | Ctrl + S         | ⌃ + S
+Load timeline data     | Ctrl + O         | ⌃ + O
 
 
 ----------------------------------------------
