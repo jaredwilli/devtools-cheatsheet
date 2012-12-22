@@ -429,7 +429,7 @@ section {
     color: #000;
     display: inline-block;
     position: relative;
-    padding: 0.5em 1em 0;
+    padding: 0.5em 1em;
     margin: 1em 0;
     width: 98%;
 }
@@ -441,8 +441,11 @@ a, a:visited {
 a:hover {
     color: #4B30B9;
 }
+
 a img, img { border: 0; }
+
 img { vertical-align: text-top; }
+
 code {
     background: #fff;
     box-shadow: 0 0 5px 0 hsla(200, 0%, 80%, 0.6);
@@ -450,7 +453,9 @@ code {
 }
 
 h1, h2, h3 { margin: 0; }
+
 h1 { display: inline-block; }
+
 h2 { border-bottom: 1px solid #CCC; }
 
 h2 .docs {
@@ -461,9 +466,13 @@ h2 .docs {
     display: none;
     padding: 0 5px;
 }
+
 h2:hover .docs { display: inline-block; }
+
 ul li ul { list-style: none; }
+
 header { width: 100%; }
+
 header h1 a {
     color: #6199DF;
     text-decoration: none;
@@ -481,11 +490,13 @@ footer {
 }
 
 #themes .links { padding-top: 10px; }
+
 .links li {
     float: left;
     width: 30%;
     margin: 0 0 0 1.9em;
 }
+
 #themes .links { margin: 0; }
 
 table {
@@ -498,7 +509,7 @@ table {
 table th {
     background-color: #6199DF;
     border: 1px solid #4D90FE;
-    color: white;
+    color: #fff;
     font-weight: bold;
 }
 table td {
@@ -520,9 +531,9 @@ table td {
     position: relative;
     margin: 0.7em;
 }
-#network .netCols.timeline li {
-    width: 330px;
-}
+
+#network .netCols.timeline li { width: 330px; }
+
 #network .netCols li img {
     float: left;
     margin-right: 15px;
@@ -551,7 +562,9 @@ table td {
     right: 20px;
     top: 10px;
 }
+
 .fb-like { width: 40px; }
+
 .git-btn {
     display: inline-block;
     position: relative;
@@ -563,8 +576,6 @@ table td {
     margin: 10px;
     padding: 4px 5px 4px 100px;
 }
-
-
 
 
 /* ==========================================================================
@@ -591,12 +602,12 @@ table td {
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
+    position: absolute;
     height: 1px;
     margin: -1px;
-    overflow: hidden;
     padding: 0;
-    position: absolute;
     width: 1px;
+    overflow: hidden;
 }
 
 /*
