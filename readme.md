@@ -49,7 +49,9 @@ Zoom Out                       | Ctrl -           | ⇧ -
 Navigate                | Up, Down                            | Up, Down
 Expand / Collapse Node  | Right, Left                         | Right, Left
 Expand Node             | Double-Click on tag                 | Double-Click on tag
-Edit Attribute          | Return or Double-Click on attribute | Enter or Double-Click on attribute
+Edit Attribute          | Enter or Double-Click on attribute  | Enter or Double-Click on attribute
+Hide Element            | H                                   | H
+Toggle Edit as HTML     | F2                                  |
 
 **Right Clicking an Element you can:**
   * Force Element Psuedo States: (`:active`, `:hover`, `:focus`, `:visited`)
