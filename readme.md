@@ -19,7 +19,7 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
 
 
 ----------------------------------------------
-## Global Shortcuts
+## All Panels
 
                                | Windows / Linux  | Mac
 ------------------------------ | ---------------- | -------------------
