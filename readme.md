@@ -11,7 +11,7 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 
                                                     | Windows / Linux        | Mac
 --------------------------------------------------- | ---------------------- | -------------------
-Open Developer Tools                                | F12, Ctrl + Shift + I  | ⌥ + ⌘ + I
+Open Developer Tools                                | F12 / Ctrl + Shift + I | ⌥ + ⌘ + I
 Open Developer Tools and bring focus to the Console | Ctrl + Shift + J       | ⌥ + ⌘ + J
 Toggle Inspect Element mode                         | Ctrl + Shift + C       | ⌥ + ⌘ + C
 
@@ -32,8 +32,6 @@ Toggle Console                 | Esc              | Esc
 Refresh the page               | Ctrl +Shift + R  | ⌘ + R
 Focus Search Box               | Ctrl + F         | ⌘ + F
 Text search across all sources | Ctrl + Shift + F | ⌘ + Alt + F
-Find Previous                  | Ctrl + Shift + G | ⇧ + ⌘ + G
-Find Next                      | Ctrl + G         | ⌘ + G
 Go to Source                   | Ctrl + O         | ⇧ + O
 Go to Line                     | Ctrl + G         | ⌘ + G
 Restore Default text size      | Ctrl + 0         | ⇧ + 0
@@ -51,7 +49,7 @@ Expand / Collapse Node  | Right, Left                         | Right, Left
 Expand Node             | Double-Click on tag                 | Double-Click on tag
 Edit Attribute          | Enter or Double-Click on attribute  | Enter or Double-Click on attribute
 Hide Element            | H                                   | H
-Toggle Edit as HTML     | F2                                  |
+Toggle Edit as HTML     | F2                                  | ???
 
 **Right Clicking an Element you can:**
   * Force Element Psuedo States: (`:active`, `:hover`, `:focus`, `:visited`)
@@ -61,16 +59,16 @@ Toggle Edit as HTML     | F2                                  |
 ----------------------------------------------
 ## [Styles Sidebar](http://goo.gl/ZisTc)
 
-                                   | Windows / Linux              | Mac
----------------------------------- | ---------------------------- | ----------------------------
-Edit Rule                          | Double-Click                 | Double-Click
-Insert New Property                | Double-Click on whitespace   | Double-Click on whitespace
-Edit Next / Previous Property      | Tab, Shift + Tab             | Tab, ⇧ + Tab
-Increment / Decrement Value        | Up, Down                     | Up, Down
-Increment / Decrement Value by 10  | Shift + Up, Shift + Down     | ⇧ + Up, ⇧ + Down
-Increment / Decrement Value by 10  | PgUp, PgDown                 | PgUp, PgDown
-Increment / Decrement Value by 100 | Shift + PgUp, Shift + PgDown | ⇧ + PgUp, ⇧ + PgDown
-Increment / Decrement Value by 0.1 | Alt + Up, Alt + Down         | ⌥ + Up, ⌥ + Down
+                                   | Windows / Linux               | Mac
+---------------------------------- | ----------------------------  | ----------------------------
+Edit Rule                          | Double-Click                  | Double-Click
+Insert New Property                | Double-Click on whitespace    | Double-Click on whitespace
+Edit Next / Previous Property      | Tab / Shift + Tab             | Tab / ⇧ + Tab
+Increment / Decrement Value        | Up / Down                     | Up / Down
+Increment / Decrement Value by 10  | Shift + Up / Shift + Down     | ⇧ + Up / ⇧ + Down
+Increment / Decrement Value by 10  | PgUp / PgDown                 | PgUp / PgDown
+Increment / Decrement Value by 100 | Shift + PgUp / Shift + PgDown | ⇧ + PgUp / ⇧ + PgDown
+Increment / Decrement Value by 0.1 | Alt + Up / Alt + Down         | ⌥ + Up / ⌥ + Down
 
 ![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
 Emulate an element's pseudo state (`:active`, `:hover`, `:focus`, `:visited`)
@@ -270,14 +268,14 @@ profileEnd()                     | Turns off the JavaScript profiler and prints 
 
 Feature                 | Description
 ----------------------- | -----------------------------------------------------
--disable-javascript     | Disable JavaScript from command line.
--disable-images         | Disable images.
--disable-java           | Disable Java.
--disable-plugins        | Disable plugins.
--disable-popup-blocking | Disable popup blocking.
+-disable-javascript     | Disable JavaScript from command line
+-disable-images         | Disable images
+-disable-java           | Disable Java
+-disable-plugins        | Disable plugins
+-disable-popup-blocking | Disable popup blocking
 -start-maximized        | Start Chrome fullscreen
 
-> For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript_
+> For example: _"C:\Documents and Settings\%username%\Local Settings\Application Data\Google\Chrome" -disable-javascript
 
 
 ----------------------------------------------
@@ -308,9 +306,11 @@ Feature                 | Description
 
 
 ----------------------------------------------
-## Opening Google Chrome Features
+## Other Chrome Shortcuts
                                                                            | Windows / Linux       | Mac
 -------------------------------------------------------------------------- | --------------------- | -------------------
+Find Previous                                                              | Ctrl + Shift + G      | ⇧ + ⌘ + G
+Find Next                                                                  | Ctrl + G              | ⌘ + G
 Open a new window in incognito mode                                        | Ctrl + Shift + N      | ⌘ + Shift + N
 Toggle bookmarks bar on and off                                            | Ctrl + B              | Shift + ⌘ + B
 View the History page                                                      | Ctrl + H              | ⌘ + Y
@@ -321,6 +321,7 @@ Focus the address bar with a '?' and type a search term after it to search | Ctr
 Highlight content in the web address area                                  | F6, Ctrl + L, Alt + D | F6, ⌘ + L, Alt + D
 
 For a list of all Chrome shortcuts for Windows, Mac, and Linux check out [http://goo.gl/PsTNm](http://goo.gl/PsTNm).
+
 
 ----------------------------------------------
 ## about:pages
