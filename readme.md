@@ -288,7 +288,7 @@ Feature                 | Description
   * [Tomorrow Theme](http://goo.gl/tcELr)
   * [IR_Black Theme](http://goo.gl/Ou6WA)
   * [IR_Black Theme - with sidebar colors](http://goo.gl/5ddPs)
-  * [Solarized Dark](http://goo.gl/W0INT)
+  * [Solarized Dark](http://goo.gl/wCLQH)
   * [Ruby Blue](http://goo.gl/MxIjz)
   * [Expresso](http://goo.gl/zK2Sn)
   * [Inversion](http://goo.gl/T1SeZ)
