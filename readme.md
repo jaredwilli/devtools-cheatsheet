@@ -1,3 +1,4 @@
+ant
 # [Chrome Devtools Cheatsheet](http://anti-code.com/devtools-cheatsheet/)
 
 ----------------------------------------------
@@ -9,11 +10,12 @@ To access the developer tools, on any web page or app in Google Chrome you can u
   * Right-click on any page element and select **Inspect element**.
   * Shortcut keys:
 
-                                                    | Windows / Linux        | Mac
---------------------------------------------------- | ---------------------- | -------------------
-Open Developer Tools                                | F12 / Ctrl + Shift + I | ⌥ + ⌘ + I
-Open Developer Tools and bring focus to the Console | Ctrl + Shift + J       | ⌥ + ⌘ + J
-Toggle Inspect Element mode                         | Ctrl + Shift + C       | ⌥ + ⌘ + C
+                                                     | Windows / Linux        | Mac
+---------------------------------------------------- | ---------------------- | -------------------
+Open Developer Tools                                 | F12 / Ctrl + Shift + I | ⌥ + ⌘ + I
+Toggle Inspect Element mode                          | Ctrl + Shift + C       | ⌥ + ⌘ + C
+Open Developer Tools and bring focus to the Console  | Ctrl + Shift + J       | ⌥ + ⌘ + J
+Inspect the Inspector (*Undock first one and press)  | Ctrl + Shift + J       | ⌥ + ⌘ + J
 
 View the list of shortcuts: type `?` when the Developer Tools window is open.
 
