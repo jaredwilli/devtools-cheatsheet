@@ -300,8 +300,8 @@ Feature                 | Description
 > Undock it from the browser and type: Ctrl + Alt + I or ⌃ + Alt + I on Mac.
 
 > Override the classes/IDs of Devtools for your theme via:
+  * Windows: C:/Users/%username%/AppData/Local/Google/Chrome/User Data/Default/User StyleSheets/Custom.css
   * Mac OSX: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
-  * Windows: C:/Users/AppDataLocal/Google/Chrome/User Data/Default/User StyleSheets/Custom.css
   * Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
 
 > Read about how to [customize your Devtools](http://goo.gl/3hOAW).
