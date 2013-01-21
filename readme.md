@@ -1,4 +1,3 @@
-ant
 # [Chrome Devtools Cheatsheet](http://anti-code.com/devtools-cheatsheet/)
 
 ----------------------------------------------
@@ -410,6 +409,9 @@ you can type them into the address bar if you need them.
   * [Chrome Devtools](http://goo.gl/BVCnH)
   * [Chrome Shortcuts](http://goo.gl/gkN0K)
   * [The Breakpoint #2](http://goo.gl/w1WyO)
+  * [The Breakpoint #3 - The Sourcemap Spectacular](http://goo.gl/Y10Kw)
+  * [The Breakpoint #4 - The Tour De Timeline](http://goo.gl/qzSf4)
+  * [The Breakpoint #5 - DevTools Grab bag](http://goo.gl/4kDXf)
   * [Google IO 2010 session](http://goo.gl/q64sW)
   * [Google IO 2011 session](http://goo.gl/00St7)
   * [Google IO 2012: Developer Tools Evolution](http://goo.gl/Lp4UJ)
