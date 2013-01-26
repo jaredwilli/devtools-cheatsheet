@@ -25,6 +25,7 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
                                | Windows / Linux  | Mac
 ------------------------------ | ---------------- | -------------------
 Open Shortcut Help             | ?                | ?
+Jump to panel 1-8              | Ctrl + 1-8       | ⌘ + 1-8
 Next Panel                     | Ctrl + ]         | ⌘ + ]
 Previous Panel                 | Ctrl + [         | ⌘ + [
 Backwards in Panel History     | Ctrl + Alt + ]   | ⌘ + Alt + ]
