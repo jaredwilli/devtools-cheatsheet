@@ -30,7 +30,7 @@ Previous Panel                 | Ctrl + [         | ⌘ + [
 Backwards in Panel History     | Ctrl + Alt + ]   | ⌘ + Alt + ]
 Forwards in Panel history      | Ctrl + Alt + [   | ⌘ + Alt + [
 Toggle Console                 | Esc              | Esc
-Refresh the page               | Ctrl +Shift + R  | ⌘ + R
+Refresh the page               | Ctrl + Shift + R | ⌘ + Shift + R
 Focus Search Box               | Ctrl + F         | ⌘ + F
 Text search across all sources | Ctrl + Shift + F | ⌘ + Alt + F
 Go to Source                   | Ctrl + O         | ⇧ + O
