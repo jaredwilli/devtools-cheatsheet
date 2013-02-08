@@ -421,6 +421,8 @@ you can type them into the address bar if you need them.
   * [Chrome Dev Tools: Networking and the Console](http://net.tutsplus.com/tutorials/chrome-dev-tools-networking-and-the-console/)
   * [Extending Chrome DevTools for fun and profit](http://goo.gl/o23Cp)
   * [Better Layout for Devtools Docked Vertically](http://goo.gl/PjIsn)
+  * [The WebKit Inspector](http://goo.gl/bZL3A)
+  * [Visually Re-engineering CSS For Faster Paint Times](http://goo.gl/IQEXd)
 
 
 ----------------------------------------------
