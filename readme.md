@@ -35,7 +35,7 @@ Refresh the page               | Ctrl + Shift + R | ⌘ + Shift + R
 Focus Search Box               | Ctrl + F         | ⌘ + F
 Text search across all sources | Ctrl + Shift + F | ⌘ + Alt + F
 Go to Source                   | Ctrl + O         | ⇧ + O
-Go to Line                     | Ctrl + G         | ⌘ + G
+Go to Line                     | Ctrl + G         | ⌘ + L
 Restore Default text size      | Ctrl + 0         | ⇧ + 0
 Zoom In                        | Ctrl +           | ⇧ +
 Zoom Out                       | Ctrl -           | ⇧ -
