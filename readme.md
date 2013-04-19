@@ -5,7 +5,7 @@
 
 To access the developer tools, on any web page or app in Google Chrome you can use one of these options:
 
-  * Select the **Wrench menu** at the top-right of your browser window, then select **Tools → Developer tools**.
+  * Select the **Hot dog menu** ![Hot dog menu](http//anti-code.com/devtools-cheatsheet/img/toolsmenu.png "Hot dog menu") at the top-right of your browser window, then select **Tools → Developer tools**.
   * Right-click on any page element and select **Inspect element**.
   * Shortcut keys:
 
@@ -25,9 +25,9 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
                                | Windows / Linux  | Mac
 ------------------------------ | ---------------- | -------------------
 Open Shortcut Help             | ?                | ?
-Jump to panel 1-8              | Ctrl + 1-8       | ⌘ + 1-8
 Next Panel                     | Ctrl + ]         | ⌘ + ]
 Previous Panel                 | Ctrl + [         | ⌘ + [
+Jump to panel 1-8 (moved to experiments) | Ctrl + 1-8       | ⌘ + 1-8
 Backwards in Panel History     | Ctrl + Alt + ]   | ⌘ + Alt + ]
 Forwards in Panel history      | Ctrl + Alt + [   | ⌘ + Alt + [
 Toggle Console                 | Esc              | Esc
