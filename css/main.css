@@ -446,6 +446,7 @@ a img, img { border: 0; }
 
 img { vertical-align: text-top; }
 
+#devtools img { vertical-align: bottom; }
 code {
 	background: #fff;
 	box-shadow: 0 0 5px 0 hsla(200, 0%, 80%, 0.6);
