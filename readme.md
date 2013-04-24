@@ -220,7 +220,7 @@ console.propertyIsEnumerable()                 |
 console.table(data[, columns])                 | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
 console.time([name])                           | Creates a new timer under the given name. Call `console.timeEnd(name)` with the same name to stop the timer and print the time elapsed.
 console.timeEnd()                              | Stops a timer created by a call to `console.time(name)` and writes the time elapsed.
-console.timeStamp()                            |
+console.timeStamp([label])                     | Adds `label` event to the Timeline during a recording session.
 console.toLocaleString()                       |
 console.toString()                             |
 console.trace()                                | Prints an interactive stack trace of JavaScript execution at the point where it is called.
