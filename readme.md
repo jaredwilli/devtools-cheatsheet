@@ -16,7 +16,7 @@ Open/switch from Inspect Element mode and broswer window | Ctrl + Shift + C     
 Open Developer Tools and bring focus to the Console      | Ctrl + Shift + J       | ⌥ + ⌘ + J
 Inspect the Inspector (*Undock first one and press)      | Ctrl + Shift + J       | ⌥ + ⌘ + J
 
-View the list of shortcuts: type `?` when the Developer Tools window is open.
+View the list of shortcuts: type `?` when the Developer Tools window is open and then click on Shortcuts in the side nav.
 
 
 ----------------------------------------------
@@ -24,10 +24,10 @@ View the list of shortcuts: type `?` when the Developer Tools window is open.
 
                                | Windows / Linux  | Mac
 ------------------------------ | ---------------- | -------------------
-Open Shortcut Help             | ?                | ?
+Open General Settings          | ?                | ?
 Next Panel                     | Ctrl + ]         | ⌘ + ]
 Previous Panel                 | Ctrl + [         | ⌘ + [
-Jump to panel 1-8 (moved to experiments) | Ctrl + 1-8       | ⌘ + 1-8
+Jump to panel 1-9              | Ctrl + 1-9       | ⌘ + 1-9
 Backwards in Panel History     | Ctrl + Alt + ]   | ⌘ + Alt + ]
 Forwards in Panel history      | Ctrl + Alt + [   | ⌘ + Alt + [
 Toggle Console                 | Esc              | Esc
