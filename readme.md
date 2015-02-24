@@ -380,6 +380,7 @@ about:version             | Display information about the browser.
   * chrome://version
   * chrome://workers
   * chrome://conflicts
+  * chrome://inspect/#devices
 
 ----------------------------------------------
 ### For Debugging
