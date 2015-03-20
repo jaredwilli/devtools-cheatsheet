@@ -215,7 +215,6 @@ console.log(object[, object, ...])             | Writes a message to the console
 console.memory                                 | An object that returns: `jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize` objects containing information for the current page memory use.
 console.profile([title])                       | Turns on the JavaScript profiler. The optional argument title would contain the text to be printed in the header of the profile report.
 console.profileEnd()                           | Turns off the JavaScript profiler and prints its report.
-console.profiles                               | An array of profile objects that summarizes the data from `profile()`.
 console.propertyIsEnumerable()                 |
 console.table(data[, columns])                 | Allows to log provided data using tabular layout. The method takes one required parameter that represents table like data (array of arrays or list of objects).
 console.time([name])                           | Creates a new timer under the given name. Call `console.timeEnd(name)` with the same name to stop the timer and print the time elapsed.
