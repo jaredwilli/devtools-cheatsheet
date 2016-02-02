@@ -165,6 +165,7 @@ Text search within current file                                       | Ctrl + F
 Text search across all sources                                        | Ctrl + Shift + F    | ⌘ + Alt + F
 Filter/navigate to a JavaScript function/CSS rule when viewing a file | Ctrl + Shift + O    | ⌘ + Shift + O
 Launch line number dialog when viewing a file                         | Ctrl + K            | ⌘ + L
+Find next occurence of highlighted text and select it                 | Ctrl + D            | ⌘ + D 
 Evaluate code selected in scripts in the console                      | Ctrl + Shift + E    | ⌘ + Shift + E
 
 
