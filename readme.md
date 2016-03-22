@@ -67,8 +67,8 @@ Edit Rule                          | Double-Click                  | Double-Clic
 Insert New Property                | Double-Click on whitespace    | Double-Click on whitespace
 Edit Next / Previous Property      | Tab / Shift + Tab             | Tab / ⇧ + Tab
 Increment / Decrement Value by 1   | Up / Down / Mousewheel        | Up/Down/Mousewheel
-Increment / Decrement Value by 10  | Shift + Up / Down / Mousewheel| ⇧ + Up / Down / Mousewheel
 Increment / Decrement Value by 100 | Ctrl + Up / Down / Mousewheel | ⌘ + Up / Down / Mousewheel
+Increment / Decrement Value by 10  | Shift + Up / Down / Mousewheel| ⇧ + Up / Down / Mousewheel
 Increment / Decrement Value by 0.1 | Alt + Up / Down / Mousewheel  | ⌥ + Up / Down / Mousewheel
 
 ![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
