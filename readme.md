@@ -66,11 +66,10 @@ Toggle Edit as HTML     | F2                                  | ???
 Edit Rule                          | Double-Click                  | Double-Click
 Insert New Property                | Double-Click on whitespace    | Double-Click on whitespace
 Edit Next / Previous Property      | Tab / Shift + Tab             | Tab / ⇧ + Tab
-Increment / Decrement Value        | Up / Down                     | Up / Down
-Increment / Decrement Value by 10  | Shift + Up / Shift + Down     | ⇧ + Up / ⇧ + Down
-Increment / Decrement Value by 10  | PgUp / PgDown                 | PgUp / PgDown
-Increment / Decrement Value by 100 | Shift + PgUp / Shift + PgDown | ⇧ + PgUp / ⇧ + PgDown
-Increment / Decrement Value by 0.1 | Alt + Up / Alt + Down         | ⌥ + Up / ⌥ + Down
+Increment / Decrement Value by 1   | Up / Down / Mousewheel        | Up/Down/Mousewheel
+Increment / Decrement Value by 10  | Shift + Up / Down / Mousewheel| ⇧ + Up / Down / Mousewheel
+Increment / Decrement Value by 100 | Ctrl + Up / Down / Mousewheel | ⌘ + Up / Down / Mousewheel
+Increment / Decrement Value by 0.1 | Alt + Up / Down / Mousewheel  | ⌥ + Up / Down / Mousewheel
 
 ![Element Pseudostates](http://anti-code.com/devtools-cheatsheet/img/attributes.png "Element Pseudostates")
 Emulate an element's pseudo state (`:active`, `:hover`, `:focus`, `:visited`)
