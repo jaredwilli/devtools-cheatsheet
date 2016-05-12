@@ -245,6 +245,7 @@ String substitution patterns available when using console.log() are:
 Command                          | Description
 -------------------------------- | ----------------------------------------------------
 $$                               | Returns an array of elements that match the given CSS selector.
+$x(xpath)                        | Returns an array of elements that match the given XPath expression.
 $0                               | The currently-selected object in the inspector.
 $_                               | The previously evaluated statement
 $1                               | The previously-selected object in the inspector.
