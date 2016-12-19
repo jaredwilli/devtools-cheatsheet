@@ -253,7 +253,7 @@ dir(object)                      | Prints an interactive listing of all properti
 dirxml(node)                     | Prints the XML source tree of an HTML or XML element. This looks identical to the view that you would see in the HTML tab. You can click on any node to inspect it in the HTML tab.
 clear()                          | Clears the console.
 copy()                           | Copies everything passed to it to the clipboard.
-instspect(object[, tabName])     | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
+inspect(object[, tabName])       | Inspects an object in the most suitable tab, or the tab identified by the optional argument tabName.
 keys(object)                     | Returns an array containing the names of all properties of the object.
 values(object)                   | Returns an array containing the values of all properties of the object.
 monitorEvents(object[, types])   | Turns on logging for all events dispatched to an object. The optional argument types may specify a specific family of events to log. The most commonly used values for types are "mouse" and "key". The full list of available types includes "composition", "contextmenu", "drag", "focus", "form", "key", "load", "mouse", "mutation", "paint", "scroll", "text", "ui", and "xul".
