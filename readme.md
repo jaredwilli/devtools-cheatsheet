@@ -9,7 +9,7 @@ To access the developer tools, on any web page or app in Google Chrome you can u
   * Right-click on any page element and select **Inspect element**.
   * Shortcut keys:
 
-                                                         | Windows / Linux        | Mac
+Function                                                 | Windows / Linux        | Mac
 -------------------------------------------------------- | ---------------------- | -------------------
 Open Developer Tools                                     | F12 / Ctrl + Shift + I | ⌥ + ⌘ + I
 Open/switch from Inspect Element mode and broswer window | Ctrl + Shift + C       | ⌥ + ⌘ + C
@@ -22,7 +22,7 @@ View the list of shortcuts: type `?` when the Developer Tools window is open and
 ----------------------------------------------
 ## All Panels
 
-                               | Windows / Linux  | Mac
+Function                       | Windows / Linux  | Mac
 ------------------------------ | ---------------- | -------------------
 Open General Settings          | ?                | ?
 Next Panel                     | Ctrl + ]         | ⌘ + ]
@@ -44,7 +44,7 @@ Zoom Out                       | Ctrl -           | ⇧ -
 ----------------------------------------------
 ## [Elements Panel](http://goo.gl/DjP6v)
 
-                        | Windows / Linux                     | Mac
+Function                | Windows / Linux                     | Mac
 ----------------------- | ----------------------------------- | ---------------------------------
 Navigate                | Up, Down                            | Up, Down
 Expand / Collapse Node  | Right, Left                         | Right, Left
@@ -61,7 +61,7 @@ Toggle Edit as HTML     | F2                                  | ???
 ----------------------------------------------
 ## [Styles Sidebar](http://goo.gl/ZisTc)
 
-                                   | Windows / Linux               | Mac
+Function                           | Windows / Linux               | Mac
 ---------------------------------- | ----------------------------  | ----------------------------
 Edit Rule                          | Double-Click                  | Double-Click
 Insert New Property                | Double-Click on whitespace    | Double-Click on whitespace
@@ -108,7 +108,7 @@ Export network data into <a href="http://goo.gl/eDSY2">HAR format</a> for reload
 ----------------------------------------------
 ## [Sources Panel](http://goo.gl/VsxZA)
 
-                            | Windows / Linux               | Mac
+Function                    | Windows / Linux               | Mac
 --------------------------- | ----------------------------- | -------------------
 Continue                    | F8, Ctrl + /                  | F8, ⌘ + /
 Step Over                   | F10, Ctrl + '                 | F10, ⌘ + '
@@ -136,7 +136,7 @@ Pause on Uncaught Exceptions (usually the one you want)
 ----------------------------------------------
 ## [Timeline Panel](http://goo.gl/wsxO3)
 
-                       | Windows / Linux  | Mac
+Function               | Windows / Linux  | Mac
 ---------------------- | ---------------- | -------------------
 Start / Stop recording | Ctrl + E         | ⌃ + E
 Save timeline data     | Ctrl + S         | ⌃ + S
@@ -157,7 +157,7 @@ Profiling types:
 
 Find or navigate to specific files, methods or line numbers in an web app within the Sources panel.
 
-                                                                      | Windows / Linux     | Mac
+Function                                                              | Windows / Linux     | Mac
 --------------------------------------------------------------------- | ------------------- | --------------------
 Search scripts, stylesheets and snippets by filename                  | Ctrl + O            | ⌘ + O
 Text search within current file                                       | Ctrl + F            | ⌘ + F
@@ -172,7 +172,7 @@ Evaluate code selected in scripts in the console                      | Ctrl + S
 ----------------------------------------------
 ## [Console](http://goo.gl/cu0vw)
 
-                        | Windows / Linux  | Mac
+Function                | Windows / Linux  | Mac
 ----------------------- | ---------------- | -------------------
 Next Suggestion         | Tab              | Tab
 Previous Suggestion     | Shift + Tab      | ⇧ + Tab
@@ -310,7 +310,8 @@ Feature                 | Description
 
 ----------------------------------------------
 ## Other Chrome Shortcuts
-                                                                           | Windows / Linux       | Mac
+
+Function                                                                   | Windows / Linux       | Mac
 -------------------------------------------------------------------------- | --------------------- | -------------------
 Find Previous                                                              | Ctrl + Shift + G      | ⇧ + ⌘ + G
 Find Next                                                                  | Ctrl + G              | ⌘ + G
