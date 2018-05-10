@@ -12,7 +12,7 @@ To access the developer tools, on any web page or app in Google Chrome you can u
 |                                                          | Windows / Linux        | Mac
 |--------------------------------------------------------- | ---------------------- | -------------------
 | Open Developer Tools                                     | F12 / Ctrl + Shift + I | ⌥ + ⌘ + I
-| Open/switch from Inspect Element mode and broswer window | Ctrl + Shift + C       | ⌥ + ⌘ + C
+| Open/switch from Inspect Element mode and browser window | Ctrl + Shift + C       | ⌥ + ⌘ + C
 | Open Developer Tools and bring focus to the Console      | Ctrl + Shift + J       | ⌥ + ⌘ + J
 | Inspect the Inspector (*Undock first one and press)      | Ctrl + Shift + J       | ⌥ + ⌘ + J
 
